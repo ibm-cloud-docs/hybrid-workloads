@@ -16,6 +16,7 @@ toc:
       id: overview
       topics:
       - about.md
+      - include: ../satellite/location-host.md
       - release-notes.md
   - navgroup:
       id: howto
