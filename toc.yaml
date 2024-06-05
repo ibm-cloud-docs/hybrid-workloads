@@ -1,6 +1,6 @@
 toc:
   properties:
-    subcollection: hybrid-cloud
+    subcollection: hybrid-workloads
     category: solution_docs
     industry: Stratos
     compliance: IBMHybridCloud
@@ -10,7 +10,7 @@ toc:
     product-page: https://www.ibm.com/cloud/hybrid-cloud
     path: framework-financial-services
     description: Financial institutions can confidently host their mission-critical applications in the cloud and transact quickly and efficiently.
-    label: IBM Hybrid Cloud
+    label: Managing workloads in hybrid environments
   entries:
   - navgroup:
       id: overview
