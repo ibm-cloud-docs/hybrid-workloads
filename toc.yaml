@@ -17,6 +17,10 @@ toc:
       id: howto
       topics:
       - locations-management.md
+      - topicgroup:
+          label: Managing your billing and usage
+          topics:
+          - include: ../billing-usage/service-level-commit.md
   - navgroup:
       id: help
       topics:
