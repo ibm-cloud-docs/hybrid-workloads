@@ -17,6 +17,7 @@ toc:
       id: howto
       topics:
       - locations-management.md
+      - include: ../satellite/locations.md
       - topicgroup:
           label: Managing your billing and usage
           topics:
