@@ -24,5 +24,5 @@ To create a satellite location, complete the following steps:
 1. Select the resource group. 
 1. Select the region from where the satellite is managed. This allows you to have a better network coverage. 
 1. Specify the zones to keep your apps up and running for a high availability of your network, even after a partial or full site failure. For more informtion, see [High availablity and recvovery](/docs/satellite?topic=satellite-ha)
-1. Select either Red Hat CoreOS enabled or RHEL hosts only that impacts host operating system support, footprint, and the availability of extra features. For more information, see [Deciding whether to enable Red Hat CoreOS support for your location](docs/satellite?topic=satellite-infrastructure-plan#enable-coreos-loc)
+1. Select either **Red Hat CoreOS enabled** or **RHEL hosts only** that impacts host operating system support, footprint, and the availability of extra features. For more information, see [Deciding whether to enable Red Hat CoreOS support for your location](/docs/satellite?topic=satellite-infrastructure-plan#enable-coreos-loc)
 1. Click **Create**. 

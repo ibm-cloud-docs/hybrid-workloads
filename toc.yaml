@@ -16,20 +16,14 @@ toc:
   - navgroup:
       id: howto
       topics:
-      - topicgroup:
-         label: Locations management
-         topics:
-          - include: ../overview/locations.md
-          - locations-management.md
-      - topicgroup: 
-         label: Satellite location 
-         topics: 
-          - include: ../satellite/locations.md
-          - creating-satellite-locations.md
-      - topicgroup:
-          label: Managing your billing and usage
-          topics:
-          - include: ../billing-usage/service-level-commit.md
+        - include: ../overview/locations.md
+        - locations-management.md
+        - include: ../satellite/locations.md
+        - creating-satellite-locations.md
+        - topicgroup:
+            label: Managing your billing and usage
+            topics:
+            - include: ../billing-usage/service-level-commit.md
   - navgroup:
       id: help
       topics:
