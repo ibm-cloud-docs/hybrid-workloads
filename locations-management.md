@@ -32,9 +32,9 @@ To set the location filters, complete the following steps.
 1. From **Location type**, select either **Public** or **Private** based on your requirement:
    * **Public**: Geographically distributed data centers operated by cloud service providers that are accessible to multiple customers over the internet.
    * **Private**: Sometimes called private regions or private clouds, are cloud environments dedicated to a single organization. These can be hosted on-premises or within a dedicated section of a cloud provider’s data center.
-1. From the Common filters, select either On premises or satellite based on your requirement:
-    * On premise: 
-    * Satellite: 
+1. From the **Common filters**, select either On premises or satellite based on your requirement:
+    * **On premise**: 
+    * **Satellite**: 
 1. Click **Create satellite location**.
 
  
