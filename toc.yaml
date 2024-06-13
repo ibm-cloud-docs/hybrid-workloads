@@ -16,6 +16,7 @@ toc:
   - navgroup:
       id: howto
       topics:
+      - include: ../overview/locations.md
       - locations-management.md
       - include: ../satellite/locations.md
       - topicgroup:
