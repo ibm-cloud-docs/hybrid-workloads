@@ -34,8 +34,8 @@ Now, that your satellite location is created, you can configure your infrastruct
 
 
 To get a clear view of resources deployed in specific Satellite locations, complete the following steps: 
-1. Click the **Resource list**
-1. Click the **Location** filter and seach for satellite locations
+1. On the Catalog page, click **Resource list**
+1. Search for satellite locations in the **Location** filter
 
 ibmcloud resource search 'region:satellite'
 
