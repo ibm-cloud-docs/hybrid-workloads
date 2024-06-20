@@ -13,16 +13,53 @@ subcollection: hybrid-workloads
 
 
 # Creating satellite locations
-{: #creating_locations}
+{: #creating_satellitelocations}
 
 Creating satellite locations involves setting up additional instances of your infrastructure, services, or resources in different geographical regions to improve performance, availability, and redundancy. 
 {: shortdesc}
  
 To create a satellite location, complete the following steps:
-1. Specify the name of the satellite location. 
-1. Specify the user tags. 
-1. Select the resource group. 
-1. Select the region from where the satellite is managed. This allows you to have a better network coverage. 
-1. Specify the zones to keep your apps up and running for a high availability of your network, even after a partial or full site failure. For more informtion, see [High availablity and recvovery](/docs/satellite?topic=satellite-ha).
-1. Select either **Red Hat CoreOS enabled** or **RHEL hosts only** that impacts host operating system support, footprint, and the availability of extra features. For more information, see [Deciding whether to enable Red Hat CoreOS support for your location](/docs/satellite?topic=satellite-infrastructure-plan#enable-coreos-loc).
-1. Click **Create**. 
+1. In the {{site.data.keyword.cloud_notm}} console, go to **Manage** > **Catalogs**, and select **Locations**.
+1. Click **Create Satellite**
+    Make sure you have all the prerequisites as mentioned in the [Overview](/docs/hybrid-workloads?topic=hybrid-workloads-locations) section. By default, creating satellite location uses On-premises and edge template.
+    {: note}
+
+1. Specify all the details like **Name**, **Tags**, **Resource group**, **Managed from**, **Red Hat CoreOS Support**, and **Object storage**
+1. Review your **Total estimate cost** and click **Create location**. 
+
+Now, that your satellite location is created, you can configure your infrastructure by PaaS setup, attach hosts, create services, link endpoints, and Create storage configuration. For more information, see [Attaching on-prem hosts to your location](docs/satellite?topic=satellite-attach-hosts)
+
+## Viewing resources that are deployed to a Satellite location
+{: #viewing_resource}
+
+
+To get a clear view of resources deployed in specific Satellite locations, complete the following steps: 
+1. Click the **Resource list**
+
+ibmcloud resource search 'region:satellite'
+
+### Searching with the CLI
+{: #search-cli}
+
+The following examples can help you search for location resources.
+
+
+
+### Search by using the API
+{: #searching-api} {: api}
+
+To search for resources, call The Global Search and Tagging - Search API. The following example searches for all resources with tag "project:myproject" attached.
+
+
+{: codeblock} {: curl}
+
+SearchOptions searchOptions = new SearchOptions.Builder()
+  .query("GST-sdk-*")
+  .fields(new java.util.ArrayList<String>(java.util.Arrays.asList("*")))
+  .searchCursor(searchCursor)
+  .build();
+
+Response<ScanResult> response = service.search(searchOptions).execute();
+ScanResult scanResult = response.getResult();
+
+System.out.println(scanResult);
