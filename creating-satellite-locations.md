@@ -47,7 +47,7 @@ The following examples can help you search for location resources.
 
 
 ### Search by using the API
-{: #searching-api} {: api}
+{: #searching-api}
 
 To search for resources, call The Global Search and Tagging - Search API. The following example searches for all resources with tag "project:myproject" attached.
 
