@@ -35,6 +35,7 @@ Now, that your satellite location is created, you can configure your infrastruct
 
 To get a clear view of resources deployed in specific Satellite locations, complete the following steps: 
 1. Click the **Resource list**
+1. Click the **Location** filter and seach for satellite locations
 
 ibmcloud resource search 'region:satellite'
 
@@ -51,15 +52,3 @@ The following examples can help you search for location resources.
 To search for resources, call The Global Search and Tagging - Search API. The following example searches for all resources with tag "project:myproject" attached.
 
 
-{: codeblock} {: curl}
-
-SearchOptions searchOptions = new SearchOptions.Builder()
-  .query("GST-sdk-*")
-  .fields(new java.util.ArrayList<String>(java.util.Arrays.asList("*")))
-  .searchCursor(searchCursor)
-  .build();
-
-Response<ScanResult> response = service.search(searchOptions).execute();
-ScanResult scanResult = response.getResult();
-
-System.out.println(scanResult);
