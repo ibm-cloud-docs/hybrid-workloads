@@ -15,10 +15,10 @@ subcollection: hybrid-workloads
 # Managing locations
 {: #managing_locations}
 
-Managing geographical regions where cloud service providers host their data centers. These locations are equipped to ensure the reliability, security, and performance of cloud services. Managing these locations allows to meet the needs of customers and ensure seamless operation of cloud services.
+An IBM Cloud service that can be deployed in a Satellite location, such as a Red Hat OpenShift cluster. The service is administered from the IBM Cloud region where your location is managed, while you supply the infrastructure hosts to operate the service's resources at your site. Managing geographical regions where cloud service providers host their data centers. These locations are equipped to ensure the reliability, security, and performance of cloud services. Managing these locations allows to meet the needs of customers and ensure seamless operation of cloud services.
 {: shortdesc}
 
-As an administrator, 
+While managing accounts, you can select between an enterprise account and a standard account. This allows you to specify the account group and the impacted sub-accounts or account groups. 
 
 ## Before you begin
 {: #prerequisites}
@@ -26,22 +26,53 @@ As an administrator,
 
 ## Setting location filters for an account 
 {: #location_filters}
+
+Editing a location allow list impacts resource provisioning. 
  
 To set the location filters, complete the following steps.
 1. In the IBM console, go to **Manage** > **Catalog** > **Locations**.
 1. Switch to an enterprise account. 
 1. Select the account group by clicking **Change**. 
-1. Specify either **Public** or **Private** based on your requirement:
-1. Specify either **On premises** or **Satellite** based on your requirement:
-    * **On premise**: 
-    * **Satellite**: 
+1. Specify the **Location type**. 
+1. Specify the **Common filters**. 
+1. Based on the selections, the **Allowed**, **Blocked**, and **Total** locations are displayed.  
 1. Click **Save filter**.
 1. Click **Create satellite location**.
 
 ### Filtering syntax
 {: #filtering_syntax}
 
+Filter locations allows you to view, search, and filter locations. You can either perform one of the following to filter your locations: 
+* Enter the syntax to filter locations. 
+* Click **More filters** to refine your search based of the allow list. 
 
+Multiple dimensions can be included while filtering a location/region. Hence, a syntax is used to define the combinations of these regions. The following syntax is used for filtering:
+* `|` to designate OR 
+* `^` to designate AND 
+* `(,)` for grouping
+
+Syntax to define regions
+
+| Example | Description |
+|---------------|-------------|
+| geo_id:na,ap | Geography ID is either `na` or `ap` | 
+| country_id:us,ca,jp | Country ID is either `us`, `ca`, or `jp` | 
+| id:a,b,c | Region ID is either `a`, `b`, `c` |
+| metro_id:dal | Metro ID is `dal` |
+| cap:on-prem | capability on-prem is registered |
+| cap:power.status:order-placement | power capability with `order-placement` status | 
+| tag:t1 | Regions with a `t1` tag | 
+| public:false | private regions |
+| kind:region| [Group of one or more zones](https://github.ibm.com/ibmcloud/content-catalog/blob/master/design-docs/regions.md#filters){: external}.
+{: caption="Table 1. Defining syntax." caption-side="top"}  
+
+Multiple syntax 
+
+| Example | Description |
+|---------------|-------------|
+| country:de,uk|id:bnpp | All regions in `de` or `uk` countries as well as (OR) region (id) `bnpp`| 
+| geo_id:na^cap:name:power | any region in North America geography that has a (AND) power capability | 
+{: caption="Table 2. Defining multiple syntax." caption-side="top"}  
 
 ## Creating a satellite location 
 {: #satellite_location}
