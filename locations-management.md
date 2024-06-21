@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2024
-lastupdated: "2024-06-13"
+lastupdated: "2024-06-20"
 
 keywords: location management, locations, region
 
@@ -12,7 +12,7 @@ subcollection: hybrid-workloads
 {{site.data.keyword.attribute-definition-list}}
 
 
-# Managing locations
+# Managing workload deployment locations
 {: #managing_locations}
 
 An IBM Cloud service that can be deployed in a Satellite location, such as a Red Hat OpenShift cluster. The service is administered from the IBM Cloud region where your location is managed, while you supply the infrastructure hosts to operate the service's resources at your site. Managing geographical regions where cloud service providers host their data centers. These locations are equipped to ensure the reliability, security, and performance of cloud services. Managing these locations allows to meet the needs of customers and ensure seamless operation of cloud services.
