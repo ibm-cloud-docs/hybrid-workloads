@@ -1,7 +1,8 @@
 ---
 copyright:
   years: 2024
-lastupdated: "2024-06-20"
+
+lastupdated: "2024-06-26"
 
 keywords: location management, locations, region
 
@@ -15,10 +16,8 @@ subcollection: hybrid-workloads
 # Managing workload deployment locations
 {: #managing_locations}
 
-An IBM Cloud service capable of deployment in a Satellite location, like a Red Hat OpenShift cluster. The service is managed from the IBM Cloud region where your location is overseen, while you provide the infrastructure hosts to operate the service's resources at your site. Managing the geographical regions where cloud service providers host their data centers is crucial for ensuring the reliability, security, and performance of cloud services. This oversight enables meeting customer needs and ensuring the smooth operation of cloud services.
+An IBM Cloud Satellite location mirrors an environment within your infrastructure provider, whether it is an on-premises or cloud setting. These locations consist of compute resources known as hosts, which are housed either within your infrastructure provider's environment or locally. Once you have linked your hosts to a Satellite, power, or on-prem location, you can designate them for the location's control plane or utilize them to support your service workloads.
 {: shortdesc}
-
-While managing accounts, you can choose between an enterprise account and a standard account. This enables you to specify the account group and the affected sub-accounts or account groups. 
 
 ## Before you begin
 {: #before_begin}
@@ -67,7 +66,7 @@ Multiple dimensions can be included while filtering a location/region. Hence, a 
 {: caption="Table 1. Defining syntax." caption-side="top"}  
 
 #### Multiple syntax 
-{: #Multiple_syntax}
+{: #multiple_syntax}
 
 | Example | Description |
 |---------------|-------------|
@@ -77,8 +76,12 @@ Multiple dimensions can be included while filtering a location/region. Hence, a 
 
 For example, enter the location filter as `geo:na` and and select the **Show blocked locactions** toggle, and select the **metro** allowlist to view regions that are blocked. 
 
+To view who made made changes to the filters, click the email to expand it and view the details in **Change logs**. 
+
 ## Creating a satellite location 
 {: #satellite_location}
+
+An IBM Cloud service capable of deployment in a Satellite location, like a Red Hat OpenShift cluster. The service is managed from the IBM Cloud region where your location is overseen, while you provide the infrastructure hosts to operate the service's resources at your site.
 
 Creating satellite locations involves setting up additional instances of your infrastructure, services, or resources in different geographical regions to improve performance, availability, and redundancy. Once all the location filters are set in [Setting location filters for an account](/docs/hybrid-workloads?topic=hybrid-workloads-managing_locations), click **Create satellite location** to create a satellite location. For more information, see [Manually creating satellite locations](/docs/satellite?topic=satellite-loc-manual-create). 
 
@@ -87,10 +90,3 @@ Creating satellite locations involves setting up additional instances of your in
 
 To view resources deployed to a satellite location, complete the following steps: 
 1. 
- Resources 
- exlain how the filtering works 
-
-
-
-
-
