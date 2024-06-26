@@ -15,20 +15,19 @@ subcollection: hybrid-workloads
 # Managing workload deployment locations
 {: #managing_locations}
 
-An IBM Cloud service that can be deployed in a Satellite location, such as a Red Hat OpenShift cluster. The service is administered from the IBM Cloud region where your location is managed, while you supply the infrastructure hosts to operate the service's resources at your site. Managing geographical regions where cloud service providers host their data centers. These locations are equipped to ensure the reliability, security, and performance of cloud services. Managing these locations allows to meet the needs of customers and ensure seamless operation of cloud services.
+An IBM Cloud service capable of deployment in a Satellite location, like a Red Hat OpenShift cluster. The service is managed from the IBM Cloud region where your location is overseen, while you provide the infrastructure hosts to operate the service's resources at your site. Managing the geographical regions where cloud service providers host their data centers is crucial for ensuring the reliability, security, and performance of cloud services. This oversight enables meeting customer needs and ensuring the smooth operation of cloud services.
 {: shortdesc}
 
-While managing accounts, you can select between an enterprise account and a standard account. This allows you to specify the account group and the impacted sub-accounts or account groups. 
+While managing accounts, you can choose between an enterprise account and a standard account. This enables you to specify the account group and the affected sub-accounts or account groups. 
 
 ## Before you begin
-{: #prerequisites}
+{: #before_begin}
 
+If you are not a catalog admin in the account you are currently in, you will see a read-only version of it. However, if you are a catalog admin, you will have the ability to edit the filters. Editing the location filters for an account impacts the resources that users can view in the IBM Cloud catalog in the account. 
 
 ## Setting location filters for an account 
 {: #location_filters}
 
-Editing a location allow list impacts resource provisioning. 
- 
 To set the location filters, complete the following steps.
 1. In the IBM console, go to **Manage** > **Catalog** > **Locations**.
 1. Switch to an enterprise account. 
@@ -37,21 +36,22 @@ To set the location filters, complete the following steps.
 1. Specify the **Common filters**. 
 1. Based on the selections, the **Allowed**, **Blocked**, and **Total** locations are displayed.  
 1. Click **Save filter**.
-1. Click **Create satellite location**.
 
 ### Filtering syntax
 {: #filtering_syntax}
 
-Filter locations allows you to view, search, and filter locations. You can either perform one of the following to filter your locations: 
+Filter locations allows you to view, search, and filter locations. It is most effective for straightforward location combinations or for grasping the workings of the filtering syntax. You can see how the advanced syntax develops through the toggles and filters in the search bar. You can perform either of the following to filter your locations: 
 * Enter the syntax to filter locations. 
 * Click **More filters** to refine your search based of the allow list. 
+* Select the **Show inactive locations**, **Show blocked locations**, and **Show parent locations (geographies, countries, metros)** toggles. 
 
 Multiple dimensions can be included while filtering a location/region. Hence, a syntax is used to define the combinations of these regions. The following syntax is used for filtering:
 * `|` to designate OR 
 * `^` to designate AND 
 * `(,)` for grouping
 
-Syntax to define regions
+#### Syntax to define regions
+{: #define_syntax}
 
 | Example | Description |
 |---------------|-------------|
@@ -66,7 +66,8 @@ Syntax to define regions
 | kind:region| [Group of one or more zones](https://github.ibm.com/ibmcloud/content-catalog/blob/master/design-docs/regions.md#filters){: external}.
 {: caption="Table 1. Defining syntax." caption-side="top"}  
 
-Multiple syntax 
+#### Multiple syntax 
+{: #Multiple_syntax}
 
 | Example | Description |
 |---------------|-------------|
@@ -74,19 +75,12 @@ Multiple syntax
 | geo_id:na^cap:name:power | any region in North America geography that has a (AND) power capability | 
 {: caption="Table 2. Defining multiple syntax." caption-side="top"}  
 
+For example, enter the location filter as `geo:na` and and select the **Show blocked locactions** toggle, and select the **metro** allowlist to view regions that are blocked. 
+
 ## Creating a satellite location 
 {: #satellite_location}
 
-Creating satellite locations involves setting up additional instances of your infrastructure, services, or resources in different geographical regions to improve performance, availability, and redundancy. 
-
-To create a satellite location, complete the following steps:
-1. Specify the name of the satellite location. 
-1. Specify the user tags. 
-1. Select the resource group. 
-1. Select the region from where the satellite is managed. This allows you to have a better network coverage. 
-1. Specify the zones to keep your apps up and running for a high availability of your network, even after a partial or full site failure. For more informtion, see [High availablity and recvovery](/docs/satellite?topic=satellite-ha).
-1. Select either **Red Hat CoreOS enabled** or **RHEL hosts only** that impacts host operating system support, footprint, and the availability of extra features. For more information, see [Deciding whether to enable Red Hat CoreOS support for your location](/docs/satellite?topic=satellite-infrastructure-plan#enable-coreos-loc).
-1. Click **Create**. For more information, see Satellite less technical content 
+Creating satellite locations involves setting up additional instances of your infrastructure, services, or resources in different geographical regions to improve performance, availability, and redundancy. Once all the location filters are set in [Setting location filters for an account](/docs/hybrid-workloads?topic=hybrid-workloads-managing_locations), click **Create satellite location** to create a satellite location. For more information, see [Manually creating satellite locations](/docs/satellite?topic=satellite-loc-manual-create). 
 
 ## Viewing resources deployed to a satellite location 
 {: #viewing_resources}
