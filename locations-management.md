@@ -110,4 +110,4 @@ Creating satellite locations involves setting up additional instances of your in
 {: #viewing_resources}
 
 To view resources deployed to a satellite location, complete the following steps:
-1.
+1. This is the step we created for testing.
