@@ -12,7 +12,7 @@ subcollection: hybrid-workloads
 {{site.data.keyword.attribute-definition-list}}
 
 
-# Creating a satellite location
+# Creating a Satellite location
 {: #satellite_location}
 
 The first step to getting started with Satellite is to create a Satellite location. A Satellite location is a representation of an environment in your infrastructure provider, such as an on-prem data center or cloud. Locations are made up of compute sources, called hosts, from separate zones of your backing infrastructure environment.

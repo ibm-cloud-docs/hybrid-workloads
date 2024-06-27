@@ -19,9 +19,9 @@ toc:
         - include: ../overview/locations.md
         - locations-management.md
         - topicgroup:
-            label: Creating a Satellite location
+            label: Working with Satellite locations
             topics:
-            - creating-satellite-locations.md
+            - creating-satellite-locations.md 
             - viewing-resources.md
         - topicgroup:
             label: Managing your billing and usage
