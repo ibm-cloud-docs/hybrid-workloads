@@ -11,7 +11,7 @@ subcollection: hybrid-workloads
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Viewing resources that are deployed to a Satellite location
+# Viewing resources in a Satellite location
 {: #viewing_resource}
 
 ## Refining your search results
