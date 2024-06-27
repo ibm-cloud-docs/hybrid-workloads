@@ -109,5 +109,7 @@ Creating satellite locations involves setting up additional instances of your in
 ## Viewing resources deployed to a satellite location
 {: #viewing_resources}
 
+
 To view resources deployed to a satellite location, complete the following steps:
 1. This is the step we created for testing.
+
