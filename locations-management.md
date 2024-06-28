@@ -2,7 +2,7 @@
 copyright:
   years: 2024
 
-lastupdated: "2024-06-26"
+lastupdated: "2024-06-27"
 
 keywords: location management, locations, region
 
@@ -91,7 +91,7 @@ Multiple dimensions can be included while filtering a location/region. Hence, a 
 
 | Example | Description |
 |---------------|-------------|
-| country:de,uk|id:bnpp | All regions in `de` or `uk` countries as well as (OR) region (id) `bnpp`|
+| `country:de,uk\|id:test` | All regions in `de` or `uk` countries as well as (OR) region (id) `test`|
 | geo_id:na^cap:name:power | any region in North America geography that has a (AND) power capability |
 {: caption="Table 2. Defining multiple syntax." caption-side="top"}
 
