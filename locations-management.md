@@ -98,18 +98,3 @@ Multiple dimensions can be included while filtering a location/region. Hence, a 
 For example, enter the location filter as `geo:na` and and select the **Show blocked locactions** toggle, and select the **metro** allowlist to view regions that are blocked.
 
 To view who made made changes to the filters, click the email to expand it and view the details in **Change logs**.
-
-## Creating a satellite location
-{: #satellite_location}
-
-An IBM Cloud service capable of deployment in a Satellite location, like a Red Hat OpenShift cluster. The service is managed from the IBM Cloud region where your location is overseen, while you provide the infrastructure hosts to operate the service's resources at your site.
-
-Creating satellite locations involves setting up additional instances of your infrastructure, services, or resources in different geographical regions to improve performance, availability, and redundancy. Once all the location filters are set in [Setting location filters for an account](/docs/hybrid-workloads?topic=hybrid-workloads-managing_locations), click **Create satellite location** to create a satellite location. For more information, see [Manually creating satellite locations](/docs/satellite?topic=satellite-loc-manual-create).
-
-## Viewing resources deployed to a satellite location
-{: #viewing_resources}
-
-
-To view resources deployed to a satellite location, complete the following steps:
-1. This is the step we created for testing.
-
