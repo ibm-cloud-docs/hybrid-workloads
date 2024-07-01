@@ -97,7 +97,7 @@ Multiple dimensions can be included while filtering a location/region. Hence, a 
 
 | Example                  | Description                                                             |
 |--------------------------|-------------------------------------------------------------------------|
-| country:de,uk\id:bnpp    | All regions in `de` or `uk` countries as well as (OR) region (id) `bnpp`|
+| country:de,uk\|id:bnpp    | All regions in `de` or `uk` countries as well as (OR) region (id) `bnpp`|
 | geo_id:na^cap:name:power | any region in North America geography that has a (AND) power capability |
 {: caption="Table 2. Specifying syntax to filter different dimensions." caption-side="top"}
 
