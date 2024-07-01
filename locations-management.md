@@ -30,6 +30,8 @@ As an administrator on the Catalog service, you can manage the list of allowed w
 ## Setting location filters for an account
 {: #location_filters}
 
+Enables you to apply specific settings to add or remove locations from the resource deployment allow list. 
+
 To set the location filters, complete the following steps:
 
 1. In the {{site.data.keyword.Bluemix_notm}} console, go to **Manage** > **Catalog** > **Locations**.
@@ -40,27 +42,30 @@ To set the location filters, complete the following steps:
    To view and manage locations for an individual account, you must switch to that account.
    {: note}
 
-1. Filter the allowed deployment locations.
-   * Enable applicable toggles.
-   * Click **More filters** to refine your search.
-   * Manually query the filter locations search bar.
-
-   The toggles and filters are most effective for straightforward location combinations or for grasping the workings of the filtering syntax. You can see how the advanced syntax develops in the search bar as you adjust the toggles and filters. To create more complex combinations, see [Filtering syntax](/docs-draft/hybrid-workloads?topic=hybrid-workloads-managing_locations#filtering_syntax).
-   {: tip}
-
 1. Specify the **Location type**.
    - Enable Public if you want to deply worklods to only IBM Cloud locations.
    - Enable Private if your data centers are all deployed locally (verify if this is what private means).
-1. Specify the **Common filters**.
-   - Enable On premises if
-   - Enable Power if
-   - Enable Satellite to view your satellite locations
-1. Based on the selections, the **Allowed**, **Blocked**, and **Total** locations are displayed.
+1. Specify the **Common filters**. Filtering based on these categories allow you to setup the configurations to govern how these different types of filters interact with each other or with external entities ensuring security and efficiency.  
+   - Enable **On premises** to view resources hosted locally within an organization's physical infrastructure, typically within their premises.
+   - Enable **Power** to access resources hosted on power capabilities. 
+   - Enable **Satellite** to view your satellite locations. 
+1. Based on the **Location type** and **Common filters** selections, the account group that is scoped to None is assigned to an account. Additionally, the counts for **Allowed**, **Blocked**, and **Total** locations are also diaplyed.
 
    Click **Revert to saved filter** if you don't want to save your changes. You can use this to explore all available deployment locations.
    {: tip}
 
 1. Click **Save filter**.
+
+1. Filter the allowed deployment locations.
+   * Enable applicable toggles.
+   * Click **More filters** to refine your search.
+   * Manually query the filter locations search bar.
+
+   The toggles and filters are most effective for straightforward location combinations or for grasping the workings of the filtering syntax. You can see how the advanced syntax develops in the search bar as you adjust the toggles and filters. You can customize the search bar to integrate the selected options with filter toggles in various ways, utilizing filtering syntax. To create more complex combinations, see [Filtering syntax](/docs-draft/hybrid-workloads?topic=hybrid-workloads-managing_locations#filtering_syntax).
+   {: note}
+
+1. When you click **More filters**, a set of additional filters are displayed. These filters allow you to refine your search criteria. 
+   For example, if you specify Dallas in the **Metro** allow list, then all the locations for Dallas is displayed. Similarly, if you specify a particular country in the **Country** allow list, then all the locations for the specified country will only be displayed.
 
 ### Filtering syntax
 {: #filtering_syntax}
@@ -70,30 +75,31 @@ Multiple dimensions can be included while filtering a location/region. Hence, a 
 * `^` to designate AND
 * `(,)` for grouping
 
-#### Syntax to define regions
-{: #define_syntax}
+#### Selecting different dimensions
+{: #define_dimensions}
 
-| Example | Description |
-|---------------|-------------|
-| geo_id:na,ap | Geography ID is either `na` or `ap` |
-| country_id:us,ca,jp | Country ID is either `us`, `ca`, or `jp` |
-| id:a,b,c | Region ID is either `a`, `b`, `c` |
-| metro_id:dal | Metro ID is `dal` |
-| cap:on-prem | capability on-prem is registered |
+| Example                          | Description                                    |
+|----------------------------------|------------------------------------------------|
+| geo_id:na,ap                     | Geography ID is either `na` or `ap`            |
+| country_id:us,ca,jp              | Country ID is either `us`, `ca`, or `jp`       |
+| id:a,b,c                         | Region ID is either `a`, `b`, `c`              |
+| metro_id:dal                     | Metro ID is `dal`                              |
+| cap:on-prem                      | capability on-prem is registered               |
 | cap:power.status:order-placement | power capability with `order-placement` status |
-| tag:t1 | Regions with a `t1` tag |
-| public:false | private regions |
-| kind:region| [Group of one or more zones](https://github.ibm.com/ibmcloud/content-catalog/blob/master/design-docs/regions.md#filters){: external}.
-{: caption="Table 1. Defining syntax." caption-side="top"}
+| tag:t1                           | Regions with a `t1` tag                        |
+| public:false                     | private regions                                |
+| kind:region                      | [Group of one or more zones](/docs/overview?topic=overview-locations#table-mzr)|
+{: caption="Table 1. Describing the different dimensions for filter section." caption-side="top"}
 
-#### Multiple syntax
-{: #multiple_syntax}
+#### Pre-determined syntax for filtering different dimensions
+{: #predefined_syntax}
 
-| Example | Description |
-|---------------|-------------|
-| `country:de,uk\|id:test` | All regions in `de` or `uk` countries as well as (OR) region (id) `test`|
+
+| Example                  | Description                                                             |
+|--------------------------|-------------------------------------------------------------------------|
+| country:de,uk\id:bnpp    | All regions in `de` or `uk` countries as well as (OR) region (id) `bnpp`|
 | geo_id:na^cap:name:power | any region in North America geography that has a (AND) power capability |
-{: caption="Table 2. Defining multiple syntax." caption-side="top"}
+{: caption="Table 2. Specifying syntax to filter different dimensions." caption-side="top"}
 
 For example, enter the location filter as `geo:na` and and select the **Show blocked locactions** toggle, and select the **metro** allowlist to view regions that are blocked.
 
