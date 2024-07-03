@@ -71,16 +71,16 @@ The search bar provides you with the most flexible way to search for and combine
 
 Filter by different location parameters by using the syntax shown in each example.
 
-| Parameter                              | Example                          | Description                                    |
-|------------------------------------|------------------------------------------------|
-| Geography                          | `geo_id:na,ap`                     | Geography ID is either `na` or `ap`            |
-| Country                            | `country_id:us,ca,jp`              | Country ID is either `us`, `ca`, or `jp`       |
-| Region ID                          | `id:a,b,c`                         | Region ID is either `a`, `b`, `c`              |
-| Metro                              | `metro_id:dal`                     | Metro ID is `dal`                              |
-| Capability                         | `cap:on-prem`                      | Capability on-premises is registered               |
-| Tag                                | `tag:t1`                           | Regions with a `t1` tag                        |
-| Location type                      | `public:false`                     | Private regions                                |
-| Kind                               | `kind:region`                      | [Group of one or more zones](/docs/overview?topic=overview-locations#table-mzr)|
+| Parameter                          | Example                          | Description                                    |
+|------------------------------------|----------------------------------|------------------------------------------------|
+| Geography                          | `geo_id:na,ap`                   | Geography ID is either `na` or `ap`            |
+| Country                            | `country_id:us,ca,jp`            | Country ID is either `us`, `ca`, or `jp`       |
+| Region ID                          | `id:a,b,c`                       | Region ID is either `a`, `b`, `c`              |
+| Metro                              | `metro_id:dal`                   | Metro ID is `dal`                              |
+| Capability                         | `cap:on-prem`                    | Capability on-premises is registered               |
+| Tag                                | `tag:t1`                         | Regions with a `t1` tag                        |
+| Location type                      | `public:false`                   | Private regions                                |
+| Kind                               | `kind:region`                    | [Group of one or more zones](/docs/overview?topic=overview-locations#table-mzr)|
 {: caption="Table 1. Example syntax for different location parameters." caption-side="top"}
 
 ### Combining multiple locations
