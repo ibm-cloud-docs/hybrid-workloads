@@ -2,7 +2,7 @@
 copyright:
   years: 2024
 
-lastupdated: "2024-07-02"
+lastupdated: "2024-07-24"
 
 keywords: location management, locations, region
 
@@ -25,6 +25,7 @@ As an administrator on the Catalog management service, you can manage the list o
 {: #before_begin}
 
 - You must be an Administrator on the Catalog management service to edit the location filters. Otherwise, the page is read only.
+- Create a Satellite location. Depending on your infrastructure provider, you have different options to create a Satellite location. For more information, see [Create a Satellite location overview](/docs/satellite?topic=satellite-locations).
 - Editing the location filters for an account, enterprise, or account group affects the resources that users can view in the {{site.data.keyword.Bluemix_notm}} catalog in those accounts. Users can view only services that are available in the locations that you allow. For more information, see [Service and infrastructure availability by location](/docs/overview?topic=overview-services_region).
 
 ## Setting location filters for an account
@@ -39,7 +40,7 @@ To set the location filters, complete the following steps:
    1. Keep the account group scoped to None to apply your allowlist to the entire enterprise.
    1. Click **Change** to scope the allowlist to a specific account group.
 
-   To view and manage locations for an individual account, you must switch to that account.
+   To view and manage locations for an individual account, you must switch to that account. If an allowlist is set at the enterprise level, individual accounts can still manage their own allowlists. However, individual accounts can manage only locations within the enterprise allowlist.
    {: note}
 
 1. Filter to the deployment locations that you want to allow.
@@ -47,7 +48,7 @@ To set the location filters, complete the following steps:
    * Click **More filters** to refine your search to different location parameters, like geography or country.
    * Manually query the filter locations search bar and specify a combination of location parameters.
 
-   The toggles and filters are most effective for straightforward location combinations or for grasping the workings of the filtering syntax. You can see how the advanced syntax develops in the search bar as you adjust the toggles and filters. You can customize the search bar to integrate the selected options with filter toggles in various ways, using filtering syntax. To create more complex combinations, see [Filtering syntax](/docs-draft/hybrid-workloads?topic=hybrid-workloads-managing_locations#filtering_syntax).
+   The toggles and filters are most effective for straightforward location combinations or for grasping the workings of the filtering syntax. You can see how the advanced syntax develops in the search bar as you adjust the toggles and filters. To create more complex combinations, see [Filtering syntax](/docs-draft/hybrid-workloads?topic=hybrid-workloads-managing_locations#filtering_syntax).
    {: note}
 
 
@@ -94,6 +95,4 @@ If you have more complex and specific location requirements, you might need to u
 | `geo_id:na^cap:name:power` | Any region in North America geography that has a (AND) power capability |
 {: caption="Table 2. Example syntax for specifying multiple location criteria." caption-side="top"}
 
-For example, enter the location filter as `geo:na` and select the **Show blocked locations** toggle, and select the **metro** allowlist to view regions that are blocked.
 
-{{../overview/locations.md#filter-location}}

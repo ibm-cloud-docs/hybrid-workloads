@@ -10,3 +10,6 @@ subcollection: hybrid-workloads
 ---
 
 {{site.data.keyword.attribute-definition-list}}
+
+# Why go hybrid with IBM Cloud
+{: #hybrid}
