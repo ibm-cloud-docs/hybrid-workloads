@@ -21,29 +21,13 @@ toc:
       - include: ../power-iaas/about-power-virtual-server.md
       - include: ../power-iaas/architecture-public-cloud.md
       - include: ../power-iaas/architecture-private-cloud.md
+      - include: ../dl/getting-started.md
+      - include: ../dl/video-hybrid-cloud.md
   - navgroup:
       id: howto
       topics:
         - topicgroup:
-            label: Managing workload deployment locations
-            topics:
-            - include: ../overview/locations.md
-            - locations-management.md
-            - include: ../satellite/sat-regions.md
-              navtitle: Satellite regions
-            - include: ../power-iaas/satellite-location-private.md
-              navtitle: IBM Satellite locations for IBM Power Virtual Server (On-premises)
-        - topicgroup:
-            label: Working with Satellite locations
-            topics:
-            - include: ../satellite/infrastructure-plan.md
-            - include: ../satellite/location-create-manual.md
-            - include: ../satellite/setup-control-plane.md
-            - include: ../satellite/sg-usecase.md
-              navtitle: Securely connecting on-premises resources to IBM Cloud
-            - viewing-resources.md
-        - topicgroup:
-            label: Managing your billing and usage
+            label: Pricing and ordering services
             topics:
             - include: ../power-iaas/generating-estimate.md
             - include: ../billing-usage/service-level-commit.md
@@ -53,6 +37,28 @@ toc:
               navtitle: Power Virtual Server (On-premises) pricing
             - include: ../satellite/pricing.md
               navtitle: Satellite pricing
+            - include: ../dl/order-nsp.md
+            - include: ../dl/order-connect.md
+        - topicgroup:
+            label: Managing workload deployment locations
+            topics:
+            - include: ../overview/locations.md
+            - locations-management.md
+            - include: ../satellite/sat-regions.md
+              navtitle: Satellite regions
+            - include: ../power-iaas/satellite-location-private.md
+              navtitle: IBM Satellite locations for IBM Power Virtual Server (On-premises)
+            - include: ../dl/locations.md
+              navtitle: Direct Link locations and providers
+        - topicgroup:
+            label: Working with Satellite locations
+            topics:
+            - include: ../satellite/infrastructure-plan.md
+            - include: ../satellite/location-create-manual.md
+            - include: ../satellite/setup-control-plane.md
+            - include: ../satellite/sg-usecase.md
+              navtitle: Securely connecting on-premises resources to IBM Cloud
+            - viewing-resources.md
         - topicgroup:
             label: Security and compliance
             topics:
