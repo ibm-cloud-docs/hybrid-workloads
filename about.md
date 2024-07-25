@@ -11,7 +11,7 @@ subcollection: hybrid-workloads
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Why hybrid with {{site.data.keyword.Bluemix_notm}}?
+# Getting started with hybrid cloud
 {: #hybrid}
 
 Leverage both on-premises and cloud environments to optimize your IT infrastructure. {{site.data.keyword.Bluemix_notm}} hybrid solutions seamlessly integrate your existing on-premises systems with the flexibility and scalability of the cloud for a unified and efficient application development environment. Use {{site.data.keyword.Bluemix_notm}}'s services and solutions that are designed to support and manage secure, scalable, and cost-effective hybrid environments.

@@ -12,9 +12,12 @@ toc:
       id: overview
       topics:
       - about.md
+      - bp-hybrid.md
       - include: ../satellite/getting-started.md
       - include: ../satellite/location-host.md
       - include: ../power-iaas/about-power-virtual-server.md
+      - include: ../power-iaas/architecture-public-cloud.md
+      - include: ../power-iaas/architecture-private-cloud.md
   - navgroup:
       id: howto
       topics:
@@ -35,6 +38,7 @@ toc:
             - include: ../satellite/setup-control-plane.md
             - include: ../satellite/sg-usecase.md
               navtitle: Securely connecting on-premises resources to IBM Cloud
+            - viewing-resources.md
         - topicgroup:
             label: Managing your billing and usage
             topics:
@@ -54,6 +58,8 @@ toc:
               navtitle: Security and compliance for Satellite
             - include: ../satellite/service-connection.md
             - include: ../satellite/data-security.md
+        - include: ../power-iaas/preinstallation-checklist.md
+          navtitle: Prerequisites for installing the Power Virtual Server pod in your data center
   - navgroup:
       id: help
       topics:
