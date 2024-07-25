@@ -11,6 +11,9 @@ toc:
   - navgroup:
       id: overview
       topics:
+      - link:
+          label: Build a more intentional hybrid cloud - The key to continuous innovation
+          href: https://www.ibm.com/downloads/cas/g21pjbr3
       - about.md
       - bp-hybrid.md
       - include: ../satellite/getting-started.md
