@@ -12,7 +12,9 @@ toc:
       id: overview
       topics:
       - about.md
+      - include: ../satellite/getting-started.md
       - include: ../satellite/location-host.md
+      - include: ../power-iaas/about-power-virtual-server.md
   - navgroup:
       id: howto
       topics:
@@ -44,6 +46,14 @@ toc:
               navtitle: Power Virtual Server (On-premises) pricing
             - include: ../satellite/pricing.md
               navtitle: Satellite pricing
+        - topicgroup:
+            label: Security and compliance
+            topics:
+            - include: ../power-iaas/Integrate_hpcs.md
+            - include: ../satellite/compliance.md
+              navtitle: Security and compliance for Satellite
+            - include: ../satellite/service-connection.md
+            - include: ../satellite/data-security.md
   - navgroup:
       id: help
       topics:
