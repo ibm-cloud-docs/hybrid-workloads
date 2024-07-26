@@ -17,12 +17,21 @@ toc:
       - about.md
       - bp-hybrid.md
       - include: ../satellite/getting-started.md
-      - include: ../satellite/location-host.md
       - include: ../power-iaas/about-power-virtual-server.md
-      - include: ../power-iaas/architecture-public-cloud.md
-      - include: ../power-iaas/architecture-private-cloud.md
       - include: ../dl/getting-started.md
       - include: ../dl/video-hybrid-cloud.md
+  - navgroup:
+      id: tutorial
+      topics:
+      - include: ../satellite/virtualization-location.md
+      - include: ../satellite/direct-link-tutorial.md
+  - navgroup:
+      id: plan
+      topics:
+      - include: ../satellite/location-host.md
+      - include: ../satellite/infrastructure-plan.md
+      - include: ../power-iaas/preinstallation-checklist.md
+        navtitle: Prerequisites for installing the Power Virtual Server pod in your data center
   - navgroup:
       id: howto
       topics:
@@ -53,7 +62,6 @@ toc:
         - topicgroup:
             label: Working with Satellite locations
             topics:
-            - include: ../satellite/infrastructure-plan.md
             - include: ../satellite/location-create-manual.md
             - include: ../satellite/setup-control-plane.md
             - include: ../satellite/sg-usecase.md
@@ -67,8 +75,6 @@ toc:
               navtitle: Security and compliance for Satellite
             - include: ../satellite/service-connection.md
             - include: ../satellite/data-security.md
-        - include: ../power-iaas/preinstallation-checklist.md
-          navtitle: Prerequisites for installing the Power Virtual Server pod in your data center
   - navgroup:
       id: help
       topics:
