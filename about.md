@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2024
-lastupdated: "2024-07-24"
+lastupdated: "2024-07-26"
 
 keywords: location management, locations, region
 
@@ -11,7 +11,7 @@ subcollection: hybrid-workloads
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Why use hybrid cloud with {{site.data.keyword.IBM&reg;}}?
+# Why use hybrid cloud with {{site.data.keyword.IBM_notm}}?
 {: #hybrid}
 
 Leverage both on-premises and cloud environments to optimize your IT infrastructure. {{site.data.keyword.Bluemix_notm}} hybrid solutions seamlessly integrate your existing on-premises systems with the flexibility and scalability of the cloud for a unified and efficient application development environment. Use {{site.data.keyword.Bluemix_notm}}'s services and solutions that are designed to support and manage secure, scalable, and cost-effective hybrid environments.
@@ -21,6 +21,11 @@ Leverage both on-premises and cloud environments to optimize your IT infrastruct
 {: #why-hybrid}
 
 What that means and the value.
+
+Managing workloads in hybrid environments allows you to leverage the best of both on-premises and cloud infrastructure.
+
+### Flexibility and scalibilty
+{: #flexible-scalable}
 
 ## {{site.data.keyword.Bluemix_notm}} services for hybrid environments
 {: #services-hybrid}
