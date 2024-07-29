@@ -17,17 +17,16 @@ subcollection: hybrid-workloads
 Leverage both on-premises and cloud environments to optimize your IT infrastructure. {{site.data.keyword.Bluemix_notm}} hybrid solutions seamlessly integrate your existing on-premises systems with the flexibility and scalability of the cloud for a unified and efficient application development environment. Use {{site.data.keyword.Bluemix_notm}}'s services and solutions that are designed to support and manage secure, scalable, and cost-effective hybrid environments.
 {: shortdesc}
 
-## Why am I managing workloads in hybrid environments?
+## What is hybrid cloud?
 {: #why-hybrid}
 
-What that means and the value.
+Hybrid cloud is an infrastructure that integrates on-premises data centers and public cloud services. By integrating private and public resources, you can share data and applications between both environments to create a unified, flexible, and optimized computing environment.
 
-Managing workloads in hybrid environments allows you to leverage the best of both on-premises and cloud infrastructure.
+A hybrid strategy gives you the flexibilty to run workloads in the appopriate environment based on cost, performance, and regulatory requirements. For example, you might leverage a public cloud to scale resources while maintaining critical workloads on-premises. This way, you can meet security and compliance requirements by keeping sensitive data on-premises and use the public cloud for less sensitive workloads.
 
-### Flexibility and scalibilty
-{: #flexible-scalable}
+Managing workloads in hybrid environments allows you to leverage the best of both on-premises and cloud infrastructure. This approach provides greater flexibility and scalability compared to a single public or private cloud solution.
 
-## {{site.data.keyword.Bluemix_notm}} services for hybrid environments
+## Core {{site.data.keyword.Bluemix_notm}} services for hybrid environments
 {: #services-hybrid}
 
 {{site.data.keyword.Bluemix_notm}} Satellite
@@ -36,14 +35,7 @@ Managing workloads in hybrid environments allows you to leverage the best of bot
 {{site.data.keyword.dl_full_notm}}
 :   A high-speed and secure connectivity between on-premises data centers and {{site.data.keyword.Bluemix_notm}}, enabling seamless data transfer and integration.
 
-{{site.data.keyword.Bluemix_notm}} Pak for Data
-:   A data and AI platform that integrates data management, governance, and analytics across hybrid environments.
-
 IBM Power Systems
 :   Install and configure IBM {{site.data.keyword.powerSys_notm}} on-premises within your data center to support critical workloads with enterprise level reliability. Deploy IBM {{site.data.keyword.powerSys_notm}} on {{site.data.keyword.Bluemix_notm}} for scalable and flexible cloud resources and seamless integration with your on-premises infrastructure.
 
-{{site.data.keyword.cos_full_notm}}
-:   A scalable and secure storage solution that you can be use to store and access data from both on-premises and cloud environments.
 
-{{site.data.keyword.containerlong_notm}}
-:   A managed Kubernetes service that simplifies the deployment and management of containerized applications across hybrid environments.
