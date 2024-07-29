@@ -14,7 +14,7 @@ subcollection: hybrid-workloads
 # Why use hybrid cloud with {{site.data.keyword.IBM_notm}}?
 {: #hybrid}
 
-Leverage both on-premises and cloud environments to optimize your IT infrastructure. {{site.data.keyword.Bluemix_notm}} hybrid solutions seamlessly integrate your existing on-premises systems with the flexibility and scalability of the cloud for a unified and efficient application development environment. Use {{site.data.keyword.Bluemix_notm}}'s services and solutions that are designed to support and manage secure, scalable, and cost-effective hybrid environments.
+Hybrid cloud with {{site.data.keyword.IBM_notm}} enables a seamless integration of on-premises, public cloud, and edge environments to optimize your IT infrastructure. {{site.data.keyword.Bluemix_notm}} hybrid solutions connect your existing on-premises systems with the flexibility and scalability of the cloud for a unified and efficient application development environment. Use {{site.data.keyword.Bluemix_notm}}'s services and solutions that are designed to support and manage secure, scalable, and cost-effective hybrid environments.
 {: shortdesc}
 
 ## What is hybrid cloud?
@@ -26,7 +26,7 @@ A hybrid strategy gives you the flexibilty to run workloads in the appopriate en
 
 Managing workloads in hybrid environments allows you to leverage the best of both on-premises and cloud infrastructure. This approach provides greater flexibility and scalability compared to a single public or private cloud solution.
 
-You might have a hybrid setup, but is it truly optimized? With {{site.data.keyword.satellitelong_notm}}, you can manage all of your environments through a single pane of glass. With a unified view, you can deploy and manage workloads seamlessly across your entire infrastructure. Eliminate fragmented management and embrace streamlined operations with the following core {{site.data.keyword.Bluemix_notm}} services for hybrid environments.
+You might have a hybrid setup, but it might not be truly optimized. With {{site.data.keyword.satellitelong_notm}}, you can manage all of your environments through a single pane of glass. With a unified view, you can deploy and manage workloads seamlessly across your entire infrastructure. Eliminate fragmented management and embrace streamlined operations with the following core {{site.data.keyword.Bluemix_notm}} services for hybrid environments.
 
 ## Core {{site.data.keyword.Bluemix_notm}} services for hybrid environments
 {: #services-hybrid}
@@ -40,8 +40,9 @@ You might have a hybrid setup, but is it truly optimized? With {{site.data.keywo
 {{site.data.keyword.IBM_notm}} Power Systems
 :   Install and configure {{site.data.keyword.powerSys_notm}} on-premises within your data center to support critical workloads with enterprise level reliability. Deploy {{site.data.keyword.powerSys_notm}} on {{site.data.keyword.Bluemix_notm}} for scalable and flexible cloud resources and seamless integration with your on-premises infrastructure.
 
+![A diagram that shows the components of a basic hybrid infrastructure.](images/test_hybrid_arch_drawing.svg){: caption="Figure 1. A diagram that shows the components of a basic hybrid infrastructure" caption-side="bottom"}
+
 Your on-premises data center and {{site.data.keyword.Bluemix_notm}} connect through {{site.data.keyword.dl_full_notm}}, ensuring secure and high-speed data transfer. {{site.data.keyword.satellitelong_notm}} provides a single management interface to oversee both on-premises and cloud resources, ensuring unified operations. {{site.data.keyword.powerSys_notm}} on {{site.data.keyword.Bluemix_notm}} seamlessly extends on-prem IBM Power Systems workloads to the cloud, providing scalability and flexibility.
 
-![A diagram that shows the components of a basic hybrid infrastructure.](images/test_hybrid_arch_drawing.svg){: caption="Figure 1. A diagram that shows the components of a basic hybrid infrastructure" caption-side="bottom"}
 
 
