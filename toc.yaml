@@ -83,3 +83,8 @@ toc:
         navtitle: Power Virtual Server FAQs
       - include: ../power-iaas/getting-help-and-support.md
         navtitle: Getting help with Power Virtual Server
+  - navgroup:
+      id: reference
+      topics:
+      - include: ../industry-ref-arch/industries/insurance-ra.md
+      - include: ../industry-ref-arch/industries/government-ra.md
