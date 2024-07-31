@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2024
-lastupdated: "2024-07-29"
+lastupdated: "2024-07-31"
 
 keywords: location management, locations, region
 
@@ -28,6 +28,27 @@ Managing workloads in hybrid environments allows you to leverage the best of bot
 
 You might have a hybrid setup, but it might not be truly optimized. With {{site.data.keyword.satellitelong_notm}}, you can manage all of your environments through a single pane of glass. With a unified view, you can deploy and manage workloads seamlessly across your entire infrastructure. Eliminate fragmented management and embrace streamlined operations with the following core {{site.data.keyword.Bluemix_notm}} services for hybrid environments.
 
+### On-premises
+{: #on-prem}
+
+On-premises refers to computing resources and infrastructure that are physically located within an organization's own facilities, such as a data center, office, or any owned property.
+
+On-premises solutions are often used for critical applications, sensitive data, or in industries with strict compliance and regulatory requirements.
+
+### Off-premises
+{: #off-prem}
+
+Off-premises refers to computing resources that are hosted and managed outside of an organization's physical location. This typically includes cloud services provided by third-party vendors.
+
+Off-premises solutions are commonly used for web applications, storage, disaster recovery, and workloads that require elasticity and scalability.
+
+### Edge
+{: #edge}
+
+Edge computing refers to the deployment of computing resources and services closer to the location where data is generated or consumed. Edge computing can be considered a mix of both on-premises and off-premises, depending on the deployment context and who owns and manages the infrastructure.
+
+When edge devices or infrastructure are located on the organization's property, such as in a factory, and are owned and managed by the organization, it is considered on-premises.In cases where edge infrastructure is provided and managed by a third-party service provider, and it is located outside the organization's owned facilities, it can be considered off-premises.
+
 ## Core {{site.data.keyword.Bluemix_notm}} services for hybrid environments
 {: #services-hybrid}
 
@@ -40,7 +61,7 @@ You might have a hybrid setup, but it might not be truly optimized. With {{site.
 {{site.data.keyword.IBM_notm}} Power Systems
 :   Install and configure {{site.data.keyword.powerSys_notm}} on-premises within your data center to support critical workloads with enterprise level reliability. Deploy {{site.data.keyword.powerSys_notm}} on {{site.data.keyword.Bluemix_notm}} for scalable and flexible cloud resources and seamless integration with your on-premises infrastructure.
 
-![A diagram that shows the components of a basic hybrid infrastructure.](images/test_hybrid_arch_drawing.svg "A diagram that shows the components of a basic hybrid infrastructure."){: caption="Figure 1. A diagram that shows the components of a basic hybrid infrastructure" caption-side="bottom"}
+![A diagram that shows the components of a basic hybrid infrastructure.](images/test_hybrid_arch_drawing.svg){: caption="Figure 1. A diagram that shows the components of a basic hybrid infrastructure" caption-side="bottom"}
 
 Your on-premises data center and {{site.data.keyword.Bluemix_notm}} connect through {{site.data.keyword.dl_full_notm}}, ensuring secure and high-speed data transfer. {{site.data.keyword.satellitelong_notm}} provides a single management interface to oversee both on-premises and cloud resources, ensuring unified operations. {{site.data.keyword.powerSys_notm}} on {{site.data.keyword.Bluemix_notm}} seamlessly extends on-prem IBM Power Systems workloads to the cloud, providing scalability and flexibility.
 
