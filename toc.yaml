@@ -28,6 +28,8 @@ toc:
   - navgroup:
       id: plan
       topics:
+      - assess-hybrid.md
+      - include: ../enterprise-account-architecture/account-structure.md
       - include: ../satellite/location-host.md
       - include: ../satellite/infrastructure-plan.md
       - include: ../power-iaas/preinstallation-checklist.md
@@ -75,6 +77,10 @@ toc:
               navtitle: Security and compliance for Satellite
             - include: ../satellite/service-connection.md
             - include: ../satellite/data-security.md
+        - topicgroup:
+           label: Managing billing and usage
+           topics:
+           - include: ../enterprise-account-architecture/finops.md
   - navgroup:
       id: help
       topics:
