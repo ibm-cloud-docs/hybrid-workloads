@@ -24,6 +24,7 @@ Assessing current applications is a critical first step in your hybrid cloud and
 
 Inventory and categorize
 - inventory of all your existing applications
+- categorizing gives you a breakdown of your application landscape so you can start making some decisions about where to focus your efforts
 
 Classify applications for modernization
 - Cloud ready
