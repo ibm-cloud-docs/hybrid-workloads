@@ -32,3 +32,9 @@ Classify applications for modernization
 - Keep on-prem
 
 See [Assessing existing resources and workloads](https://test.cloud.ibm.com/docs/adopt-enterprise-architecture?topic=adopt-enterprise-architecture-assess)
+
+
+## Storage
+{: #storage-eval}
+
+To transition to a hybrid cloud environment, start by evaluating your on-premises storage devices and determining which datasets and associated workloads are suitable for migration.
