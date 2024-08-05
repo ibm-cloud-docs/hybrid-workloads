@@ -33,7 +33,9 @@ toc:
       - include: ../satellite/location-host.md
       - include: ../satellite/infrastructure-plan.md
       - include: ../power-iaas/preinstallation-checklist.md
-        navtitle: Prerequisites for installing the Power Virtual Server pod in your data center
+        navtitle: Prerequisites for installing the Power Virtual Server pod in your data center]
+      - include: ../dl/deployment-transit-gateway.md
+        navtitle: Planning for Direct Link deployment
   - navgroup:
       id: howto
       topics:

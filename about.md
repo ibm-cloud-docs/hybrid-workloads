@@ -17,6 +17,8 @@ subcollection: hybrid-workloads
 Hybrid cloud with {{site.data.keyword.IBM_notm}} enables a seamless integration of on-premises, public cloud, and edge environments to optimize your IT infrastructure. {{site.data.keyword.Bluemix_notm}} hybrid solutions connect your existing on-premises systems with the flexibility and scalability of the cloud for a unified and efficient application development environment. Use {{site.data.keyword.Bluemix_notm}}'s services and solutions that are designed to support and manage secure, scalable, and cost-effective hybrid environments.
 {: shortdesc}
 
+Managing workloads in hybrid environments allows you to leverage the best of both on-premises and cloud infrastructure. This approach provides greater flexibility and scalability compared to a single public or private cloud solution.
+
 ## What is hybrid cloud?
 {: #why-hybrid}
 
@@ -24,14 +26,14 @@ Hybrid cloud is an infrastructure that integrates on-premises data centers and p
 
 A hybrid strategy gives you the flexibilty to run workloads in the appopriate environment based on cost, performance, and regulatory requirements. For example, you might leverage a public cloud to scale resources while maintaining critical workloads on-premises. This way, you can meet security and compliance requirements by keeping sensitive data on-premises and use the public cloud for less sensitive workloads.
 
-Managing workloads in hybrid environments allows you to leverage the best of both on-premises and cloud infrastructure. This approach provides greater flexibility and scalability compared to a single public or private cloud solution.
+Let's say that you have on-premises storage devices. You can determine which workloads and applications are best positioned to move to the cloud by considering factors like scalability, compliance, data sensitivity, and performance requirements. As a first step, you might decide to use cloud storage solutions for data that needs to be scalable or highly available. For more information, see [Assessing your current applications](/docs-draft/hybrid-workloads?topic=hybrid-workloads-assess-hybrid).
 
 You might have a hybrid setup, but it might not be truly optimized. With {{site.data.keyword.satellitelong_notm}}, you can manage all of your environments through a single pane of glass. With a unified view, you can deploy and manage workloads seamlessly across your entire infrastructure. Eliminate fragmented management and embrace streamlined operations with the following core {{site.data.keyword.Bluemix_notm}} services for hybrid environments.
 
 ### On-premises
 {: #on-prem}
 
-On-premises refers to computing resources and infrastructure that are physically located within an organization's own facilities, such as a data center, office, or any owned property.
+On-premises refers to computing resources and infrastructure that are physically located within an organization's own facilities, such as a data center or servers, storage devices and networking hardware.
 
 On-premises solutions are often used for critical applications, sensitive data, or in industries with strict compliance and regulatory requirements.
 
