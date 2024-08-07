@@ -37,12 +37,22 @@ On-premises refers to computing resources and infrastructure that are physically
 
 On-premises solutions are often used for critical applications, sensitive data, or in industries with strict compliance and regulatory requirements.
 
+#### Private cloud
+{: #private-cloud}
+
+A private cloud is a cloud computing environment dedicated to a single organization. It offers similar benefits to a public cloud, such as scalability and self-service, but is operated solely for that organization. An example of a private cloud offering is IBM Power Virtual Server on-premises.
+
 ### Off-premises
 {: #off-prem}
 
 Off-premises refers to computing resources that are hosted and managed outside of an organization's physical location. This typically includes cloud services provided by third-party vendors.
 
 Off-premises solutions are commonly used for web applications, storage, disaster recovery, and workloads that require elasticity and scalability.
+
+#### Public Cloud
+{: #public cloud}
+
+A public cloud is a cloud computing environment where resources are shared among multiple organizations. It is owned and operated by a third-party cloud service provider who offers computing resources, such as servers and storage, over the internet.
 
 ### Edge
 {: #edge}

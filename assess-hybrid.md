@@ -16,20 +16,19 @@ completion-time: 60m
 # Assessing your current applications
 {: #assess-hybrid}
 
-Assessing current applications is a critical first step in your hybrid cloud and application modernization journey. It provides a clear understanding of the existing landscape and helps identify the best path forward for each application.
+Assessing current applications is a critical first step in your hybrid cloud and application modernization journey. It provides a clear understanding of the existing landscape and helps identify the best path forward for each application to mximize the value of your hybrid cloud investment.
 
-1. Catalog all hardware, software, network components, and dependencies involved in the current infrastructure.
-1. Understand how applications interact with the infrastructure, including load balancing, networking, security, and storage configurations.
+1. Catalog all hardware, software, network components, and dependencies involved in your current infrastructure.
+1. Understand how applications interact with the infrastructure, including networking, security, and storage configurations.
 1. Plan how containerized applications will interact with non-containerized legacy systems.
+1. Classify applications for modernization
+   - Cloud ready
+   - Requires refactoring - containerization
+   - Keep on-prem
 
-Inventory and categorize
-- inventory of all your existing applications
-- categorizing gives you a breakdown of your application landscape so you can start making some decisions about where to focus your efforts
+For more support on your hybrid cloud journey, leverage IBM [Cloud consulting](https://www.ibm.com/consulting/cloud){: external} services.
 
-Classify applications for modernization
-- Cloud ready
-- Requires refactoring - containerization
-- Keep on-prem
+
 
 See [Assessing existing resources and workloads](https://test.cloud.ibm.com/docs/adopt-enterprise-architecture?topic=adopt-enterprise-architecture-assess)
 
