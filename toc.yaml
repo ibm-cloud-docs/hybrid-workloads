@@ -18,13 +18,11 @@ toc:
       - bp-hybrid.md
       - include: ../satellite/getting-started.md
       - include: ../power-iaas/about-power-virtual-server.md
-      - include: ../dl/getting-started.md
-      - include: ../dl/video-hybrid-cloud.md
   - navgroup:
       id: tutorial
       topics:
-      - include: ../satellite/virtualization-location.md
-      - include: ../satellite/direct-link-tutorial.md
+      - hybrid-account-tutorial.md
+      - hybrid-services-tutorial.md
   - navgroup:
       id: plan
       topics:
@@ -61,8 +59,6 @@ toc:
               navtitle: Satellite regions
             - include: ../power-iaas/satellite-location-private.md
               navtitle: IBM Satellite locations for IBM Power Virtual Server (On-premises)
-            - include: ../dl/locations.md
-              navtitle: Direct Link locations and providers
         - topicgroup:
             label: Working with Satellite locations
             topics:
