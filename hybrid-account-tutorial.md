@@ -18,7 +18,7 @@ completion-time: 60m
 {: toc-content-type="tutorial"}
 {: toc-completion-time="60m"}
 
-In this tutorial, you learn how to set up an account for managing hybrid workloads by using the {{site.data.keyword.Bluemix_notm}} consoke. You set up a private catalog that includes only the services that account users and applications need and define the locations that users can deploy workloads. Then, you set up an access profiles for developers and IT infrastructure engineers in your organization.
+In this tutorial, you learn how to set up an account for managing hybrid workloads by using the {{site.data.keyword.Bluemix_notm}} console. You set up a private catalog that includes only the services that account users and applications need and define the locations that users can deploy workloads. Then, you set up an access profiles for developers and IT infrastructure engineers in your organization.
 {: shortdesc}
 
 ## Before you begin

@@ -58,17 +58,7 @@ toc:
             topics:
             - include: ../satellite/location-create-manual.md
             - include: ../satellite/setup-control-plane.md
-            - include: ../satellite/sg-usecase.md
-              navtitle: Securely connecting on-premises resources to IBM Cloud
             - viewing-resources.md
-        - topicgroup:
-            label: Security and compliance
-            topics:
-            - include: ../power-iaas/Integrate_hpcs.md
-            - include: ../satellite/compliance.md
-              navtitle: Security and compliance for Satellite
-            - include: ../satellite/service-connection.md
-            - include: ../satellite/data-security.md
         - topicgroup:
            label: Managing billing and usage
            topics:
@@ -79,8 +69,6 @@ toc:
       - get-help.md
       - include: ../power-iaas/faq.md
         navtitle: Power Virtual Server FAQs
-      - include: ../power-iaas/getting-help-and-support.md
-        navtitle: Getting help with Power Virtual Server
   - navgroup:
       id: reference
       topics:

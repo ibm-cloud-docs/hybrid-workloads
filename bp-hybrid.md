@@ -37,7 +37,7 @@ Ensure that security policies are consistent across all environments by using IA
 ## Unifying monitoring and management
 {: #unify-hybrid}
 
-Usie a single platform to monitor and manage resources across on-premises and cloud environments. Leverage tools like IBM Cloud Satellite, which provides centralized management, monitoring, and control for hybrid environments
+Use a single platform to monitor and manage resources across on-premises and cloud environments. Leverage tools like IBM Cloud Satellite, which provides centralized management, monitoring, and control for hybrid environments
 
 ## Optimizing workloads
 {: #optimize-workloads}

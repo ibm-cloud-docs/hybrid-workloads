@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2024
-lastupdated: "2024-08-16"
+lastupdated: "2024-08-20"
 
 keywords: location management, locations, region
 
@@ -40,15 +40,61 @@ Review the documentation on preparing your site for physical hardware installati
 
 To generate an estimated price, use the [Power Virtual Server Estimate](/power/estimate) pricing tool.
 
+1. Configure a pod by specifying your required compute and storage needs.
+1. Then, select a term commitment.
+1. Next, model metered consumption costs to understand projected rate.
+1. Add the configuration to the estimator and export a PDF to view a total estimate.
+1. Share your exported estimate with IBM to get a more detailed quote and possible discounts.
+
+Leverage IBM professional services to accelerate project delivery.
+
 ## Ordering IBM {{site.data.keyword.powerSys_notm}} Private Cloud hardware
 {: #ordering}
 
-[Purchasing services deployed on-premises](/docs/billing-usage?topic=billing-usage-service-comit)
+[Purchasing services deployed on-premises](/docs/billing-usage?topic=billing-usage-service-comit).
+
+After ordering, IBM teams reach out to coordinate floorspacwe planning, networking planning, and in other items in preparation for the delivery and setup.
 
 ## Creating a satellite location
 {: #satellite}
 
 Create a Satellite location within your {{site.data.keyword.Bluemix_notm}} account to manage the lifecycle of your {{site.data.keyword.powerSys_notm}} Private Cloud pod. Satellite acts as a management layer that provides a single pane of glass for deploying and managing workloads across your on-premises and cloud environments.
+
+For more information, see [Manually creating Satellite locations](/docs/satellite?topic=satellite-loc-manual-create)
+
+
+
+## Recieving the hardware delivery
+{: #recieve-hardware}
+
+IBM personnel take care of infrastructure setup and configuraiton.
+
+- Registering the pod with IBM Cloud
+-  Connecting to the client's IBM Cloud Satellite location
+- Enabling the pod for usage
+
+The commitment term begins and you can start viewing billing information on IBM Cloud. The pod is ready for workload deployments.
+
+## Creating a schematics workspace
+{: #schematics}
+
+Create a schematics workspace in the location associated with the pod using the PowerVS interface
+
+1. Go to **Menu > Power Virtual Server > Workspaces** and click **Create a workspace**.
+1. Select On-premises and choose the satellite location associated with the pod. Click **Continue**.
+1. Enter the workspace name and select a resource group.
+1. Click **Create**.
+1. Click **View virtual servers** on the workspace that you created.
+
+## Creating a virtual server instance
+{: #create-instance}
+
+Quickly deploy SAP, Redhat Openshift and other supported workloads. Detailed views of storage pool and host leel
+
+## Monitoring infrastructure capacity
+{: #monitor-capacity}
+
+understanding how much capacity is allocated and available across all of the clients pods
 
 ## Integrating with {{site.data.keyword.Bluemix_notm}} services
 {: #integrate-cloud}
