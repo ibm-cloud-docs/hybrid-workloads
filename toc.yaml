@@ -16,7 +16,6 @@ toc:
           href: https://www.ibm.com/downloads/cas/g21pjbr3
       - about.md
       - bp-hybrid.md
-      - include: ../satellite/getting-started.md
       - include: ../power-iaas/about-power-virtual-server.md
   - navgroup:
       id: tutorial
@@ -28,12 +27,7 @@ toc:
       topics:
       - assess-hybrid.md
       - include: ../enterprise-account-architecture/account-structure.md
-      - include: ../satellite/location-host.md
-      - include: ../satellite/infrastructure-plan.md
       - include: ../power-iaas/preinstallation-checklist.md
-        navtitle: Prerequisites for installing the Power Virtual Server pod in your data center]
-      - include: ../dl/deployment-transit-gateway.md
-        navtitle: Planning for Direct Link deployment
   - navgroup:
       id: howto
       topics:

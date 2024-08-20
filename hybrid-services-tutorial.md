@@ -31,6 +31,9 @@ Review the documentation on preparing your site for physical hardware installati
 - [Environmental requirements](/power-iaas?topic=power-iaas-environmental-requirements)
 - [Power requirements](/docs/power-iaas?topic=power-iaas-power-requirements)
 - [Network requirements](/docs/power-iaas?topic=power-iaas-network-requirements)
+- [Planning your environment for Satellite locations](/docs/satellite?topic=satellite-infrastructure-plan)
+- [Direct Link Connect prerequisites](/docs/direct-link?topic=direct-link-ibm-cloud-dl-connect-prerequisites)
+
 
 ## Estimating costs
 {: #estimate}
