@@ -18,7 +18,7 @@ completion-time: 60m
 {: toc-content-type="tutorial"}
 {: toc-completion-time="60m"}
 
-In this tutorial, you learn how to set up an account for managing hybrid workloads by using the {{site.data.keyword.Bluemix_notm}}. You set up a private catalog that includes only the services that account users and applications need and define the locations that users can deploy workloads. Then, you set up an access profiles for developers and IT infrastructure engineers in your organization.
+In this tutorial, you learn how to set up an account for managing hybrid workloads by using the {{site.data.keyword.Bluemix_notm}} consoke. You set up a private catalog that includes only the services that account users and applications need and define the locations that users can deploy workloads. Then, you set up an access profiles for developers and IT infrastructure engineers in your organization.
 {: shortdesc}
 
 ## Before you begin
@@ -30,7 +30,7 @@ In this tutorial, you learn how to set up an account for managing hybrid workloa
 {: #visibility-catalog-hybrid}
 {: step}
 
-Turn off users visibility of the {{site.data.keyword.Bluemix_notm}} catalog. Users in your account can use the console to create only instances of products that you give them access to a private catalog.
+Turn off users visibility of the {{site.data.keyword.Bluemix_notm}} catalog. Users in your account can use the console to create only instances of products that you give them access to in a private catalog.
 
 1. In the {{site.data.keyword.Bluemix_notm}}, go to **Manage > Catalogs > Settings**.
 1. Set the **{{site.data.keyword.Bluemix_notm}} catalog** toggle to **Off**.
@@ -47,7 +47,7 @@ In this scenario, ABC services are needed for the infrastructure, and XYZ servic
 
 1. Go to **Manage** > **Catalogs** in the {{site.data.keyword.cloud}} console, and click **Create a catalog**.
 1. Enter a name and description of your catalog.
-1. Select to exclude or include all products in the {{site.data.keyword.cloud_notm}} catalog in your private catalog. For more information about how this affects visibility in the catalog, see [Managing catalog settings](/docs/account?topic=account-filter-account&interface=ui).
+1. Select to exclude all products in the {{site.data.keyword.cloud_notm}} catalog in your private catalog. For more information about how this affects visibility in the catalog, see [Managing catalog settings](/docs/account?topic=account-filter-account&interface=ui).
 1. Click **Create**.
 
 ## Customizing access and platform experience
