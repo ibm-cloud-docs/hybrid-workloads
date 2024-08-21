@@ -22,7 +22,7 @@ What is the recommended base setup? Is there a DA for the depoloyment of some se
 ## Leveraging cloud-native services
 {: #cloud-native}
 
-Use cloud-native services that are designed for hybrid architectures, like
+Use cloud-native services that are designed for hybrid architectures, like IBM Cloud Satellite for unified management across environments, IBM Cloud Pak for Data for integrated data management, and Power Virtual Server for seamless extension of on-premises IBM Power Systems to the cloud.
 
 ## Supporting multi-cloud
 {: #multi-cloud}
