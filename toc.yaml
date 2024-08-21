@@ -67,8 +67,6 @@ toc:
       id: help
       topics:
       - get-help.md
-      - include: ../power-iaas/faq.md
-        navtitle: Power Virtual Server FAQs
   - navgroup:
       id: reference
       topics:
