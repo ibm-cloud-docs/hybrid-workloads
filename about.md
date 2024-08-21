@@ -61,14 +61,16 @@ Off-premises solutions are commonly used for web applications, storage, disaster
 ## Core {{site.data.keyword.Bluemix_notm}} services for hybrid environments
 {: #services-hybrid}
 
-{{site.data.keyword.IBM_notm}} {{site.data.keyword.powerSys_notm}} Private Cloud
-:   Install and configure {{site.data.keyword.powerSys_notm}} on-premises within your data center to support critical workloads with enterprise level reliability. Deploy {{site.data.keyword.powerSys_notm}} on {{site.data.keyword.Bluemix_notm}} for scalable and flexible cloud resources and seamless integration with your on-premises infrastructure.
+{{site.data.keyword.IBM_notm}} {{site.data.keyword.powerSys_notm}}
+:   Install and configure {{site.data.keyword.powerSys_notm}} Private Cloud on-premises within your data center to support critical workloads with enterprise level reliability. Deploy {{site.data.keyword.powerSys_notm}} off-premisis for scalable and flexible cloud resources and seamless integration with your on-premises infrastructure. Manage  on {{site.data.keyword.Bluemix_notm}}  is a unified experince
 
 {{site.data.keyword.satellitelong_notm}}
-:   Extends {{site.data.keyword.Bluemix_notm}} services to on-premises, edge, and other cloud environments. It allows organizations to run and manage cloud services consistently across any location.
+:   Extends {{site.data.keyword.Bluemix_notm}} services to on-premises, edge, and other cloud environments. This management layer allows organizations to run and manage cloud services consistently across any location.
 
 {{site.data.keyword.dl_full_notm}}
-:   A high-speed and secure connectivity between on-premises data centers and {{site.data.keyword.Bluemix_notm}}, enabling seamless data transfer and integration.
+:   A high-speed and secure connectivity between on-premises data centers and {{site.data.keyword.Bluemix_notm}}.
+
+
 
 
 

@@ -44,6 +44,7 @@ toc:
               navtitle: Satellite pricing
             - include: ../dl/order-nsp.md
             - include: ../dl/order-connect.md
+        - include: ../power-iaas/viewing-pod-details.md
         - topicgroup:
             label: Managing workload deployment locations
             topics:
