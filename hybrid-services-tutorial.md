@@ -37,6 +37,7 @@ Review the documentation on preparing your site for physical hardware installati
 
 ## Estimating costs
 {: #estimate}
+{: step}
 
 To generate an estimated price, use the [Power Virtual Server Estimate](/power/estimate) pricing tool.
 
@@ -50,6 +51,7 @@ Leverage IBM professional services to accelerate project delivery.
 
 ## Ordering IBM {{site.data.keyword.powerSys_notm}} Private Cloud hardware
 {: #ordering}
+{: step}
 
 [Purchasing services deployed on-premises](/docs/billing-usage?topic=billing-usage-service-comit).
 
@@ -57,15 +59,17 @@ After ordering, IBM teams reach out to coordinate floorspacwe planning, networki
 
 ## Creating a satellite location
 {: #satellite}
+{: step}
 
 Create a Satellite location within your {{site.data.keyword.Bluemix_notm}} account to manage the lifecycle of your {{site.data.keyword.powerSys_notm}} Private Cloud pod. Satellite acts as a management layer that provides a single pane of glass for deploying and managing workloads across your on-premises and cloud environments.
 
-For more information, see [Manually creating Satellite locations](/docs/satellite?topic=satellite-loc-manual-create)
+For more information, see [Manually creating Satellite locations](/docs/satellite?topic=satellite-loc-manual-create).
 
 
 
 ## Recieving the hardware delivery
 {: #recieve-hardware}
+{: step}
 
 IBM personnel take care of infrastructure setup and configuraiton.
 
@@ -75,26 +79,28 @@ IBM personnel take care of infrastructure setup and configuraiton.
 
 The commitment term begins and you can start viewing billing information on IBM Cloud. The pod is ready for workload deployments.
 
-## Creating a schematics workspace
+## Creating a schematics workspace for on-premisis workloads
 {: #schematics}
+{: step}
 
-Create a schematics workspace in the location associated with the pod using the PowerVS interface
+Create a schematics workspace in the location associated with the pod installed on-premises by using the PowerVS interface. Use out of the box images to jumpstart deployments for your 
 
 1. Go to **Menu > Power Virtual Server > Workspaces** and click **Create a workspace**.
 1. Select On-premises and choose the satellite location associated with the pod. Click **Continue**.
 1. Enter the workspace name and select a resource group.
 1. Click **Create**.
-1. Click **View virtual servers** on the workspace that you created.
 
 ## Creating a virtual server instance
 {: #create-instance}
+{: step}
 
-Quickly deploy SAP, Redhat Openshift and other supported workloads. Detailed views of storage pool and host leel
+Quickly deploy SAP, Redhat Openshift and other supported workloads. Detailed views of storage pool and host level. 
 
-## Monitoring infrastructure capacity
-{: #monitor-capacity}
+1. Click the **Action icon > View virtual servers** on the workspace that you created.
+1. Click **Create instance**.
+1. 
 
-understanding how much capacity is allocated and available across all of the clients pods
+
 
 ## Integrating with {{site.data.keyword.Bluemix_notm}} services
 {: #integrate-cloud}
