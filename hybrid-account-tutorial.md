@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2024
-lastupdated: "2024-08-16"
+lastupdated: "2024-08-26"
 
 keywords: location management, locations, region
 
@@ -67,47 +67,52 @@ The roles of an IT infrastructure engineer and a developer are distinct, but the
 
 The primary focus of the IT infrastructure engineer is helping ensure that the underlying infrastructure, both cloud and on-premises, runs smoothly, is secure, scalable, and available for other teams, like development.
 
-To set up {{site.data.keyword.IBM_notm}} {{site.data.keyword.powerSys_notm}} Private Cloud and manage {{site.data.keyword.IBM_notm}} {{site.data.keyword.powerSys_notm}} instances, the IT infrastructure engineer needs the following roles and services:
+To set up {{site.data.keyword.IBM_notm}} {{site.data.keyword.powerSys_notm}} Private Cloud and manage {{site.data.keyword.powerSys_notm}} instances, the IT infrastructure engineer needs the following roles and services:
 - Administrator on {{site.data.keyword.IBM_notm}} {{site.data.keyword.powerSys_notm}}
 - Administrator on {{site.data.keyword.satellitelong_notm}}
 - Administrator on {{site.data.keyword.dl_full_notm}}
 
 To optimize and monitor resources once the infrastructure is in place, the IT infrastructure engineer needs the following roles and services:
-- monitoring tools and logs (Administator on X service)
-- need the ability to adjust compute resources based on the application's performance ( Administrator on Kubernetes)
+- Administrator on monitoring tools and logs (Administator on X service)
+- Administrator on compute resources to adjust them based on the application's performance ( Administrator on Kubernetes)
 
+
+Complete the following steps:
 1. In the {{site.data.keyword.cloud_notm}} console, click **Manage** > **Access (IAM) > Trusted profiles** and click **Create**.
 1. Enter the profile name `IT infrastructure` and the initials `IT`.
 1. Enter a description for the profile, like ""
-1. Select a color to represent this trusted profile. Your users might have access to multiple trusted profiles in multiple accounts.
-1. Select
+1. Select a color to represent this trusted profile and click **Continue**. Your users might have access to multiple trusted profiles in multiple accounts.
+1. Select **Individual users**  and the IT infrastructure engineers that need access. Then, click **Add to profile**.
+1. Click **Continue** and select **Access policy**.
+
 
 
 ### Developer
 {: #dev-tp}
 
-The primary focus of the developer is building, testing, and deploying applications or services that run on the infrastructure set up by the IT infrastructure engineer.
+The primary focus of the developer is building, testing, and deploying the retail applications that run on the infrastructure set up by the IT infrastructure engineer.
 
-- Needs access to cloud resources and maybe limited access to the data stored on-premises?
-- Needs access to private catalog
+To containerize, deploy, and scale applications on Kubernetes clusted running on {{site.data.keyword.IBM_notm}} {{site.data.keyword.powerSys_notm}}, the developers need the following rolse and service:
+- Write on {{site.data.keyword.powerSys_notm}}
+- Write on Kubernetes
+- Write on CI/CD pipelines
+
+Complete the following steps:
+1. In the {{site.data.keyword.cloud_notm}} console, click **Manage** > **Access (IAM) > Trusted profiles** and click **Create**.
+1. Enter the profile name `IT infrastructure` and the initials `IT`.
+1. Enter a description for the profile, like ""
+1. Select a color to represent this trusted profile and click **Continue**. Your users might have access to multiple trusted profiles in multiple accounts.
+1. Select **Individual users**  and the IT infrastructure engineers that need access. Then, click **Add to profile**.
+1. Click **Continue** and select **Access policy**.
+
+
 
 ## Next steps
 {: #next-steps-hybrid}
-{: step}
 
 - Order Power and Storage (Tutorial)
    - Preparing your data center for PowerVS Private Cloud (Link to)
    - Creating Satellite locations
 - Monitoring, event notifications, billing (Tutorial)
-
-----
-
-## Questions
-
-- Are we in a stand-alone account or an enterprise with multiple accounts (how is the enterprise structured? Is there a single account for services deployed on-prem or do on-prem services live in the same account as cloud resources?)
-- Multiple private catalogs?
-- Is the developer also the IT infrastructure person? It's still a good idea to have separate trusted profiles for the two separate "jobs" even if it's the same person
-
-----
 
 

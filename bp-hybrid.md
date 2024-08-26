@@ -44,6 +44,6 @@ Use a single platform to monitor and manage resources across on-premises and clo
 
 Monitor usage patterns and optimize workloads for performance and cost. Use Cost Analysis to analyze spending and identify inefficiencies. Classify and place workloads based on their requirements, like latency, data residency, compliance, or performance.
 
-[Enterprise architecture](docs/enterprise-account-architecture): generalized recommendation for how large customers should configure and govern IBM Cloud at scale.
+For more information on how enterprise customers can configure and govern IBM Cloud at scale, see [Enterprise architecture](/docs/enterprise-account-architecture).
 
 
