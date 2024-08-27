@@ -53,9 +53,9 @@ Leverage IBM professional services to accelerate project delivery.
 {: #ordering}
 {: step}
 
-[Purchasing services deployed on-premises](/docs/billing-usage?topic=billing-usage-service-comit).
+See [Purchasing services deployed on-premises](/docs/billing-usage?topic=billing-usage-service-comit).
 
-After ordering, IBM teams reach out to coordinate floorspacwe planning, networking planning, and in other items in preparation for the delivery and setup.
+After ordering, {{site.data.keyword.IBM_notm}} teams reach out to coordinate floor space planning, networking planning, and other items in preparation for the delivery and setup.
 
 ## Creating a satellite location
 {: #satellite}
@@ -83,7 +83,7 @@ The commitment term begins and you can start viewing billing information on IBM 
 {: #schematics}
 {: step}
 
-Create a schematics workspace in the location associated with the pod installed on-premises by using the PowerVS interface. Use out of the box images to jumpstart deployments for your 
+Create a schematics workspace in the location associated with the pod that is installed at your site by using the {{site.data.keyword.powerSys_notm}} dashboard. 
 
 1. Go to **Menu > Power Virtual Server > Workspaces** and click **Create a workspace**.
 1. Select On-premises and choose the satellite location associated with the pod. Click **Continue**.
@@ -94,15 +94,15 @@ Create a schematics workspace in the location associated with the pod installed 
 {: #create-instance}
 {: step}
 
-Quickly deploy SAP, Redhat Openshift and other supported workloads. Detailed views of storage pool and host level. 
+Quickly deploy SAP, Redhat Openshift and other supported workloads. Detailed views of storage pool and host level.
 
 1. Click the **Action icon > View virtual servers** on the workspace that you created.
 1. Click **Create instance**.
-1. 
+1.
 
 
 
 ## Integrating with {{site.data.keyword.Bluemix_notm}} services
 {: #integrate-cloud}
 
-Grant PowerVS access to other {{site.data.keyword.Bluemix_notm}} services like IBM Cloud Object Storage, IBM Cloud Pak solutions, and IBM Cloud Key Management Service (KMS). This way, your on-premises workloads can benefit from cloud-native services like backup, data management, and security.
+Grant PowerVS access to other {{site.data.keyword.Bluemix_notm}} services like IBM Cloud Object Storage, IBM Cloud Pak solutions, and IBM Cloud Key Management Service (KMS). This way, your on-premises workloads can benefit from cloud native services like backup, data management, and security.

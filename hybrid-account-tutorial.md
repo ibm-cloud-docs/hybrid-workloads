@@ -21,7 +21,7 @@ completion-time: 60m
 In this tutorial, you learn how to set up an account for managing hybrid workloads by using the {{site.data.keyword.Bluemix_notm}} console. You set up a private catalog that includes only the services that account users and applications need and define the locations that users can deploy workloads. Then, you set up access profiles for developers and IT infrastructure engineers in your organization.
 {: shortdesc}
 
-Let's say that you are a retail company that wants to deploy a hybrid cloud application where the core business logic runs on {{site.data.keyword.IBM_notm}} {{site.data.keyword.powerSys_notm}}, while front-end services and databases run on {{site.data.keyword.Bluemix_notm}}.
+Let's say that you are a retail company that wants to deploy a hybrid cloud application where the core business logic runs on {{site.data.keyword.IBM_notm}} {{site.data.keyword.powerSys_notm}} Private Cloud, while front-end services and databases run on {{site.data.keyword.Bluemix_notm}}.
 
 {{site.data.keyword.IBM_notm}} {{site.data.keyword.powerSys_notm}} is a private cloud, which is more secure, customizable, and on-premises. Running core business logic here uses the performance, security, and reliability of IBM Power Systems.
 
@@ -49,7 +49,7 @@ A curated private catalog makes it easier for teams to find and deploy the resou
 
 In a private catalog, you can enforce deployment location restrictions and help ensure that all deployments comply with regulatory and business requirements. This is important in hybrid cloud setups where teams are managing both on-premises and cloud-based workloads.
 
-In this scenario, ABC services are needed for the infrastructure, and XYZ services are needed for dev team to build [retail ] application.
+In this scenario, ABC services are needed for the infrastructure, and XYZ services are needed for dev team to build [retail] application.
 
 1. Go to **Manage** > **Catalogs** in the {{site.data.keyword.cloud}} console, and click **Create a catalog**.
 1. Enter a name and description of your catalog.
@@ -85,17 +85,15 @@ Complete the following steps:
 1. Select **Individual users**  and the IT infrastructure engineers that need access. Then, click **Add to profile**.
 1. Click **Continue** and select **Access policy**.
 
-
-
 ### Developer
 {: #dev-tp}
 
 The primary focus of the developer is building, testing, and deploying the retail applications that run on the infrastructure set up by the IT infrastructure engineer.
 
 To containerize, deploy, and scale applications on Kubernetes clusted running on {{site.data.keyword.IBM_notm}} {{site.data.keyword.powerSys_notm}}, the developers need the following rolse and service:
-- Write on {{site.data.keyword.powerSys_notm}}
-- Write on Kubernetes
-- Write on CI/CD pipelines
+- Writer on {{site.data.keyword.powerSys_notm}}
+- Writer on Kubernetes
+- Writer on CI/CD pipelines
 
 Complete the following steps:
 1. In the {{site.data.keyword.cloud_notm}} console, click **Manage** > **Access (IAM) > Trusted profiles** and click **Create**.
@@ -110,9 +108,4 @@ Complete the following steps:
 ## Next steps
 {: #next-steps-hybrid}
 
-- Order Power and Storage (Tutorial)
-   - Preparing your data center for PowerVS Private Cloud (Link to)
-   - Creating Satellite locations
-- Monitoring, event notifications, billing (Tutorial)
-
-
+Prepare your data center and order {{site.data.keyword.IBM_notm}} {{site.data.keyword.powerSys_notm}} Private Cloud. For more information, see [Setting up your on-premises private cloud]()

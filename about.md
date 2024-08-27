@@ -14,11 +14,10 @@ subcollection: hybrid-workloads
 # Why use hybrid cloud with {{site.data.keyword.IBM_notm}}?
 {: #hybrid}
 
-Hybrid cloud with {{site.data.keyword.IBM_notm}} enables a seamless integration of on-premises, public cloud, and edge environments to optimize your IT infrastructure. {{site.data.keyword.IBM_notm}} offers managed on-premises hardware solutions that make hosting your own private cloud simple and secure. The hardware that {{site.data.keyword.IBM_notm}} installs and manages is on-premises, but it is also fully integrates with the broader {{site.data.keyword.Bluemix_notm}} platform so that you can use services like AI, data analytics, and cloud native applications.
+Hybrid cloud with {{site.data.keyword.IBM_notm}} enables a seamless integration of on-premises, public cloud, and edge environments to optimize your IT infrastructure. {{site.data.keyword.IBM_notm}} offers managed on-premises hardware solutions that make hosting your own private cloud simple and secure. The hardware that {{site.data.keyword.IBM_notm}} installs and manages is on-premises, but it is also fully integrates with the broader {{site.data.keyword.Bluemix_notm}} platform so that you can use services like AI, data analytics, and container services.
 {: shortdesc}
 
 Your organization can focus on your core business while {{site.data.keyword.IBM_notm}} takes care of hardware installation and management. This is ideal for organizations that want to take advantage of hybrid cloud capabilities but might not have the in-house expertise or resources to manage complex hardware setups.
-
 
 
 
@@ -74,6 +73,3 @@ Off-premises solutions are commonly used for web applications, storage, disaster
 
 
 Your on-premises data center and {{site.data.keyword.Bluemix_notm}} connect through {{site.data.keyword.dl_full_notm}}, helping ensure secure and high-speed data transfer. {{site.data.keyword.satellitelong_notm}} provides a single management interface to oversee both on-premises and cloud resources, helping ensure unified operations. {{site.data.keyword.powerSys_notm}} Private Cloud provides a dedicated, cloud-like environment for your IBM Power Systems workloads, offering scalability and flexibility while maintaining control over your infrastructure, whether on-premises or in a private location.
-
-
-

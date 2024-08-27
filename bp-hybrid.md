@@ -19,10 +19,10 @@ Review the following best practices for hybrid cloud management that can help en
 
 What is the recommended base setup? Is there a DA for the depoloyment of some services?
 
-## Leveraging cloud-native services
+## Leveraging cloud native services
 {: #cloud-native}
 
-Use cloud-native services that are designed for hybrid architectures, like IBM Cloud Satellite for unified management across environments, IBM Cloud Pak for Data for integrated data management, and Power Virtual Server for seamless extension of on-premises IBM Power Systems to the cloud.
+Use cloud native services that are designed for hybrid architectures, like IBM Cloud Satellite for unified management across environments, IBM Cloud Pak for Data for integrated data management, and Power Virtual Server for seamless extension of on-premises IBM Power Systems to the cloud.
 
 ## Supporting multi-cloud
 {: #multi-cloud}
@@ -44,6 +44,4 @@ Use a single platform to monitor and manage resources across on-premises and clo
 
 Monitor usage patterns and optimize workloads for performance and cost. Use Cost Analysis to analyze spending and identify inefficiencies. Classify and place workloads based on their requirements, like latency, data residency, compliance, or performance.
 
-For more information on how enterprise customers can configure and govern IBM Cloud at scale, see [Enterprise architecture](/docs/enterprise-account-architecture).
-
-
+For more information on how enterprises can configure and govern {{site.data.keyword.Bluemix_notm}} at scale, see [Enterprise architecture](/docs/enterprise-account-architecture).
