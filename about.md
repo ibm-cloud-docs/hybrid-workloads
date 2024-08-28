@@ -14,30 +14,23 @@ subcollection: hybrid-workloads
 # Why use hybrid cloud with {{site.data.keyword.IBM_notm}}?
 {: #hybrid}
 
-Hybrid cloud with {{site.data.keyword.IBM_notm}} enables a seamless integration of on-premises, public cloud, and edge environments to optimize your IT infrastructure. {{site.data.keyword.IBM_notm}} offers managed on-premises hardware solutions that make hosting your own private cloud simple and secure. The hardware that {{site.data.keyword.IBM_notm}} installs and manages is on-premises, but it is also fully integrates with the broader {{site.data.keyword.Bluemix_notm}} platform so that you can use services like AI, data analytics, and container services.
+Hybrid cloud with {{site.data.keyword.IBM_notm}} allows you to deploy and manage your workloads across cloud and on-premises environments by using a single platform. The underlying infrastructure of hybrid cloud services, whether it's in the cloud or on-premises, remains consistent. This consistency means that workloads can be designed, deployed, and managed in the same way, regardless of where they reside.
 {: shortdesc}
 
-Your organization can focus on your core business while {{site.data.keyword.IBM_notm}} takes care of hardware installation and management. This is ideal for organizations that want to take advantage of hybrid cloud capabilities but might not have the in-house expertise or resources to manage complex hardware setups.
+When you to create or manage a resource, you can choose the location that best meets your needs, like a public cloud region, a private data center, or a Satellite location. Take advantage of {{site.data.keyword.Bluemix_notm}}'s scalability while maintaining control of critical workloads that might need to remain on-premises.
+
+{{site.data.keyword.IBM_notm}} offers managed on-premises hardware solutions that fully integrate with the {{site.data.keyword.Bluemix_notm}} platform. Your organization can focus on your core business while {{site.data.keyword.IBM_notm}} takes care of hardware installation and management.
 
 
 
 ## What is hybrid cloud?
 {: #why-hybrid}
 
-Hybrid cloud is an infrastructure that integrates on-premises data centers and public cloud services. By integrating private and public resources, you can share data and applications between both environments to create a unified, flexible, and optimized computing environment.
+Hybrid cloud is a model that combines the use of public cloud services and on-premises infrastructure.
 
-A hybrid strategy gives you the flexibility to run workloads in the appropriate environment based on cost, performance, and regulatory requirements. For example, you might use a public cloud to scale resources while maintaining critical workloads on-premises. This way, you can meet security and compliance requirements by keeping sensitive data on-premises and use the public cloud for less sensitive workloads.
+A hybrid strategy gives you the flexibility to run workloads in the appropriate environment based on cost, performance, and regulatory requirements. For example, you might use a public cloud for variable workloads that require rapid scaling and run predictable workloads on-premises.
 
 
-### Public Cloud
-{: #public cloud}
-
-A public cloud is a cloud computing environment where resources are shared among multiple organizations. It is owned and operated by a third-party cloud service provider who offers computing resources, such as servers and storage, over the internet.
-
-### Private cloud
-{: #private-cloud}
-
-A private cloud is a cloud computing environment that is dedicated to a single organization. It offers similar benefits to a public cloud, such as scalability and self-service, but is operated solely for that organization. You can have a private cloud that is on-premises or off-premises. For example, this setup can be hosted in a dedicated section of a third-party data center or on-premises through managed services like {{site.data.keyword.IBM_notm}} {{site.data.keyword.powerSys_notm}} Private Cloud.
 
 ### On-premises
 {: #on-prem}
