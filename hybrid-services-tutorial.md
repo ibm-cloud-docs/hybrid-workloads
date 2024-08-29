@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2024
-lastupdated: "2024-08-20"
+lastupdated: "2024-08-29"
 
 keywords: location management, locations, region
 
@@ -18,7 +18,7 @@ completion-time: 60m
 {: toc-content-type="tutorial"}
 {: toc-completion-time="60m"}
 
-In this tutorial, you learn how to estimate pricing, order and prepare for installing IBM {{site.data.keyword.powerSys_notm}} Private Cloud by using the {{site.data.keyword.Bluemix_notm}} console. You set up a Satellite locationmanages your PowerVS environment. Then, you grant PowerVS access to other {{site.data.keyword.Bluemix_notm}} services for an integrated hybrid cloud environment.
+In this tutorial, you learn how to estimate pricing, order and prepare for installing IBM {{site.data.keyword.powerSys_notm}} Private Cloud by using the {{site.data.keyword.Bluemix_notm}} console. You set up an {{site.data.keyword.satellitelong}} location that manages your PowerVS environment. Then, you grant PowerVS access to other {{site.data.keyword.Bluemix_notm}} services for an integrated hybrid cloud environment.
 {: shortdesc}
 
 ## Before you begin
@@ -57,13 +57,13 @@ See [Purchasing services deployed on-premises](/docs/billing-usage?topic=billing
 
 After ordering, {{site.data.keyword.IBM_notm}} teams reach out to coordinate floor space planning, networking planning, and other items in preparation for the delivery and setup.
 
-## Creating a satellite location
+## Creating a {{site.data.keyword.satelliteshort}} location
 {: #satellite}
 {: step}
 
-Create a Satellite location within your {{site.data.keyword.Bluemix_notm}} account to manage the lifecycle of your {{site.data.keyword.powerSys_notm}} Private Cloud pod. Satellite acts as a management layer that provides a single pane of glass for deploying and managing workloads across your on-premises and cloud environments.
+Create a {{site.data.keyword.satelliteshort}} location within your {{site.data.keyword.Bluemix_notm}} account to manage the lifecycle of your {{site.data.keyword.powerSys_notm}} Private Cloud pod. {{site.data.keyword.satelliteshort}} acts as a management layer that provides a single pane of glass for deploying and managing workloads across your on-premises and cloud environments.
 
-For more information, see [Manually creating Satellite locations](/docs/satellite?topic=satellite-loc-manual-create).
+For more information, see [Manually creating {{site.data.keyword.satelliteshort}} locations](/docs/satellite?topic=satellite-loc-manual-create).
 
 
 
@@ -71,22 +71,22 @@ For more information, see [Manually creating Satellite locations](/docs/satellit
 {: #recieve-hardware}
 {: step}
 
-IBM personnel take care of infrastructure setup and configuraiton.
+{{site.data.keyword.IBM_notm}} service support representatives (SSRs) take care of infrastructure setup and configuration.
 
-- Registering the pod with IBM Cloud
--  Connecting to the client's IBM Cloud Satellite location
+- Registering the pod with {{site.data.keyword.Bluemix_notm}}
+-  Connecting to the client's {{site.data.keyword.satelliteshort}} location
 - Enabling the pod for usage
 
-The commitment term begins and you can start viewing billing information on IBM Cloud. The pod is ready for workload deployments.
+The commitment term begins and you can start viewing billing information on {{site.data.keyword.Bluemix_notm}}. The pod is ready for workload deployments.
 
-## Creating a schematics workspace for on-premisis workloads
+## Creating an {{site.data.keyword.bplong}} workspace for on-premisis workloads
 {: #schematics}
 {: step}
 
-Create a schematics workspace in the location associated with the pod that is installed at your site by using the {{site.data.keyword.powerSys_notm}} dashboard. 
+Create a {{site.data.keyword.bpshort}} workspace in the location associated with the pod that is installed at your site by using the {{site.data.keyword.powerSys_notm}} dashboard. 
 
 1. Go to **Menu > Power Virtual Server > Workspaces** and click **Create a workspace**.
-1. Select On-premises and choose the satellite location associated with the pod. Click **Continue**.
+1. Select On-premises and choose the {{site.data.keyword.satelliteshort}} location associated with the pod. Click **Continue**.
 1. Enter the workspace name and select a resource group.
 1. Click **Create**.
 
@@ -105,4 +105,4 @@ Quickly deploy SAP, Redhat Openshift and other supported workloads. Detailed vie
 ## Integrating with {{site.data.keyword.Bluemix_notm}} services
 {: #integrate-cloud}
 
-Grant PowerVS access to other {{site.data.keyword.Bluemix_notm}} services like IBM Cloud Object Storage, IBM Cloud Pak solutions, and IBM Cloud Key Management Service (KMS). This way, your on-premises workloads can benefit from cloud native services like backup, data management, and security.
+Grant PowerVS access to other {{site.data.keyword.Bluemix_notm}} services like {{site.data.keyword.cos_short}}, {{site.data.keyword.Bluemix_notm}} Pak solutions, and key management services, such as {{site.data.keyword.keymanagementservicefull}} or {{site.data.keyword.hscrypto}}. This way, your on-premises workloads can benefit from cloud native services like backup, data management, and security.
