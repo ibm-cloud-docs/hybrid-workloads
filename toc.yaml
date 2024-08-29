@@ -62,7 +62,7 @@ toc:
            topics:
            - include: ../billing-usage/service-level-commit.md
            - include: ../billing-usage/viewing_usage.md
-           - include: ../cloud-docs-solutions/enterprise-account-architecture/finops.md
+           - include: ../enterprise-account-architecture/finops.md
   - navgroup:
       id: help
       topics:
