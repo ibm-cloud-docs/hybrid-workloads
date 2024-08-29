@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2024
-lastupdated: "2024-08-21"
+lastupdated: "2024-08-28"
 
 keywords: location management, locations, region
 
@@ -26,7 +26,7 @@ When you to create or manage a resource, you can choose the location that best m
 ## What is hybrid cloud?
 {: #why-hybrid}
 
-Hybrid cloud is a model that combines the use of public cloud services and on-premises infrastructure.
+Hybrid cloud is a model that combines the use of public cloud services and on-premises infrastructure. The public cloud is hosted off-premises in {{site.data.keyword.Bluemix_notm}} data center locations while on-premises infrastructure lives on site at your location.
 
 A hybrid strategy gives you the flexibility to run workloads in the appropriate environment based on cost, performance, and regulatory requirements. For example, you might use a public cloud for variable workloads that require rapid scaling and run predictable workloads on-premises.
 
