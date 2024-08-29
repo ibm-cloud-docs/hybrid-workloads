@@ -17,7 +17,7 @@ subcollection: hybrid-workloads
 Review the following best practices for hybrid cloud management that can help ensure efficiency, security, and scalability across on-premises and cloud environments.
 {: shortdesc}
 
-What is the recommended base setup? Is there a DA for the depoloyment of some services?
+
 
 ## Leveraging cloud native services
 {: #cloud-native}
