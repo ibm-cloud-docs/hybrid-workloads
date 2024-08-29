@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2024
-lastupdated: "2024-08-28"
+lastupdated: "2024-08-29"
 
 keywords: location management, locations, region
 
@@ -14,10 +14,10 @@ subcollection: hybrid-workloads
 # Why use hybrid cloud with {{site.data.keyword.IBM_notm}}?
 {: #hybrid}
 
-Hybrid cloud with {{site.data.keyword.IBM_notm}} allows you to deploy and manage your workloads across cloud and on-premises environments by using a single platform. The underlying infrastructure of hybrid cloud services, whether it's in the cloud or on-premises, remains consistent. This consistency means that workloads can be designed, deployed, and managed in the same way, regardless of where they reside.
+With {{site.data.keyword.IBM}}'s hybrid cloud computing solutions, deploy and manage your workloads across cloud and on-premises environments by using a single platform: {{site.data.keyword.Bluemix}}. The underlying infrastructure of hybrid cloud services, whether it's in the cloud or on-premises, remains consistent -- ensuring that you can design, deploy, and manage workloads in the same way regardless of where those workloads reside. 
 {: shortdesc}
 
-When you to create or manage a resource, you can choose the location that best meets your needs, like a public cloud region, a private data center, or a Satellite location. Take advantage of {{site.data.keyword.Bluemix_notm}}'s scalability while maintaining control of critical workloads that might need to remain on-premises.
+Choose the location of your cloud resources that best meets your needs, like a public cloud region, a private data center, or a Satellite location. Take advantage of {{site.data.keyword.Bluemix_notm}}'s scalability while maintaining control of critical workloads that might need to remain on-premises.
 
 {{site.data.keyword.IBM_notm}} offers managed on-premises hardware solutions that fully integrate with the {{site.data.keyword.Bluemix_notm}} platform. Your organization can focus on your core business while {{site.data.keyword.IBM_notm}} takes care of hardware installation and management.
 
@@ -26,7 +26,7 @@ When you to create or manage a resource, you can choose the location that best m
 ## What is hybrid cloud?
 {: #why-hybrid}
 
-Hybrid cloud is a model that combines the use of public cloud services and on-premises infrastructure. The public cloud is hosted off-premises in {{site.data.keyword.Bluemix_notm}} data center locations while on-premises infrastructure lives on site at your location.
+Hybrid cloud is a model that combines the use of public cloud services and on-premises infrastructure. The public cloud is hosted off-premises in {{site.data.keyword.Bluemix_notm}} data center locations while on-premises infrastructure runs on site at your location.
 
 A hybrid strategy gives you the flexibility to run workloads in the appropriate environment based on cost, performance, and regulatory requirements. For example, you might use a public cloud for variable workloads that require rapid scaling and run predictable workloads on-premises.
 
