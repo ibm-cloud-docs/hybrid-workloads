@@ -22,8 +22,6 @@ toc:
       id: plan
       topics:
       - include: ../overview/shared-responsibility.md
-      - include: ../enterprise-account-architecture/account-structure.md
-      - include: ../power-iaas/preinstallation-checklist.md
   - navgroup:
       id: howto
       topics:
