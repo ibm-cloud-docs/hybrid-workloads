@@ -43,11 +43,11 @@ To generate an estimated price, use the [Power Virtual Server Estimate](/power/e
 
 1. Configure a pod by specifying your required compute and storage needs.
 1. Then, select a term commitment.
-1. Next, model metered consumption costs to understand projected rate.
+1. Next, model metered consumption costs to understand the projected rate.
 1. Add the configuration to the estimator and export a PDF to view a total estimate.
 1. Share your exported estimate with IBM to get a more detailed quote and possible discounts.
 
-Leverage IBM professional services to accelerate project delivery.
+Use IBM professional services to accelerate project delivery.
 
 ## Ordering IBM {{site.data.keyword.powerSys_notm}} Private Cloud hardware
 {: #ordering}
@@ -55,7 +55,7 @@ Leverage IBM professional services to accelerate project delivery.
 
 See [Purchasing services deployed on-premises](/docs/billing-usage?topic=billing-usage-service-comit).
 
-After ordering, {{site.data.keyword.IBM_notm}} teams reach out to coordinate floor space planning, networking planning, and other items in preparation for the delivery and setup.
+After your order is placed, {{site.data.keyword.IBM_notm}} teams reach out to coordinate floor space planning, networking planning, and other items in preparation for the delivery and setup.
 
 ## Creating a {{site.data.keyword.satelliteshort}} location
 {: #satellite}
@@ -98,11 +98,11 @@ Quickly deploy SAP, Redhat Openshift and other supported workloads. Detailed vie
 
 1. Click the **Action icon > View virtual servers** on the workspace that you created.
 1. Click **Create instance**.
-1.
 
 
 
 ## Integrating with {{site.data.keyword.Bluemix_notm}} services
 {: #integrate-cloud}
+{: step}
 
 Grant PowerVS access to other {{site.data.keyword.Bluemix_notm}} services like {{site.data.keyword.cos_short}}, {{site.data.keyword.Bluemix_notm}} Pak solutions, and key management services, such as {{site.data.keyword.keymanagementservicefull}} or {{site.data.keyword.hscrypto}}. This way, your on-premises workloads can benefit from cloud native services like backup, data management, and security.

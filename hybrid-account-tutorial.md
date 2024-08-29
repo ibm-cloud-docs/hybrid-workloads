@@ -30,7 +30,7 @@ Let's say that you are a retail company that wants to deploy a hybrid cloud appl
 ## Before you begin
 {: #before-hybrid}
 
-- Make sure that you are logged in as the account owner or a user with the Administrator role on all account management services or Administrator role on the IAM Identity Service. For more information, see [IAM Identity service](/docs/account?topic=account-account-services#identity-service-account-management).
+Make sure that you are logged in as the account owner or a user with the Administrator role on all account management services or Administrator role on the IAM Identity Service. For more information, see [IAM Identity service](/docs/account?topic=account-account-services#identity-service-account-management).
 
 ## Setting the catalog visibility
 {: #visibility-catalog-hybrid}
