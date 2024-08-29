@@ -16,7 +16,6 @@ toc:
           href: https://www.ibm.com/downloads/cas/g21pjbr3
       - about.md
       - bp-hybrid.md
-      - include: ../power-iaas/about-power-virtual-server.md
   - navgroup:
       id: tutorial
       topics:
@@ -25,8 +24,7 @@ toc:
   - navgroup:
       id: plan
       topics:
-      - assess-hybrid.md
-      - include: ../enterprise-account-architecture/account-structure.md
+      - include: ../cloud-docs-solutions/enterprise-account-architecture/account-structure.md
       - include: ../power-iaas/preinstallation-checklist.md
   - navgroup:
       id: howto
@@ -35,7 +33,6 @@ toc:
             label: Pricing and ordering services
             topics:
             - include: ../power-iaas/generating-estimate.md
-            - include: ../billing-usage/service-level-commit.md
             - include: ../power-iaas/pricing.md
               navtitle: Power Virtual Server (Off-premises) pricing
             - include: ../power-iaas/pricing-private-cloud.md
@@ -63,7 +60,9 @@ toc:
         - topicgroup:
            label: Managing billing and usage
            topics:
-           - include: ../enterprise-account-architecture/finops.md
+           - include: ../billing-usage/service-level-commit.md
+           - include: ../billing-usage/viewing_usage.md
+           - include: ../cloud-docs-solutions/enterprise-account-architecture/finops.md
   - navgroup:
       id: help
       topics:
