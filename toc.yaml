@@ -12,7 +12,11 @@ toc:
       id: overview
       topics:
       - about.md
-      - bp-hybrid.md
+      - topicgroup:
+          label: Best practices
+          topics:
+          - bp-hybrid.md
+          - include: ../enterprise-account-architecture/finops.md
   - navgroup:
       id: tutorial
       topics:
@@ -37,11 +41,7 @@ toc:
             - include: ../satellite/location-create-manual.md
             - locations-management.md
         - include: ../power-iaas/viewing-pod-details.md
-        - topicgroup:
-           label: Managing billing and usage
-           topics:
-           - include: ../billing-usage/viewing_usage.md
-           - include: ../enterprise-account-architecture/finops.md
+        - include: ../billing-usage/viewing_usage.md
   - navgroup:
       id: help
       topics:
@@ -50,7 +50,6 @@ toc:
       id: reference
       topics:
       - include: ../industry-ref-arch/industries/insurance-ra.md
-      - include: ../industry-ref-arch/industries/government-ra.md
       - link:
           label: Build a more intentional hybrid cloud - The key to continuous innovation
           href: https://www.ibm.com/downloads/cas/g21pjbr3

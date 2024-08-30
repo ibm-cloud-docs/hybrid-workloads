@@ -11,7 +11,7 @@ subcollection: hybrid-workloads
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Best practices for hybrid cloud management
+# Hybrid cloud management
 {: #bp-hybrid}
 
 Review the following best practices for hybrid cloud management that can help ensure efficiency, security, and scalability across on-premises and cloud environments.
