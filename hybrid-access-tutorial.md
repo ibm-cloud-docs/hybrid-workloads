@@ -14,7 +14,7 @@ completion-time: 60m
 {{site.data.keyword.attribute-definition-list}}
 
 # Customizing access for hybrid workloads
-{: #tutorial-hybrid}
+{: #access-tutorial-hybrid}
 {: toc-content-type="tutorial"}
 {: toc-completion-time="60m"}
 

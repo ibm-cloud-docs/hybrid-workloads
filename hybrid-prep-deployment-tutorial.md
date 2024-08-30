@@ -14,7 +14,7 @@ completion-time: 60m
 {{site.data.keyword.attribute-definition-list}}
 
 # Preparing your on-premises environment for deployments
-{: #tutorial-services-hybrid}
+{: #tutorial-prep-hybrid}
 {: toc-content-type="tutorial"}
 {: toc-completion-time="60m"}
 
