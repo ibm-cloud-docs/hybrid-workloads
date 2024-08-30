@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2024
-lastupdated: "2024-08-29"
+lastupdated: "2024-08-30"
 
 keywords: location management, locations, region
 
@@ -13,7 +13,7 @@ completion-time: 60m
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Setting up your on-premises private cloud
+# Ordering on-premises infrastructure for your hybrid cloud
 {: #tutorial-services-hybrid}
 {: toc-content-type="tutorial"}
 {: toc-completion-time="60m"}
@@ -67,42 +67,19 @@ For more information, see [Manually creating {{site.data.keyword.satelliteshort}
 
 
 
-## Recieving the hardware delivery
+## Receiving the hardware delivery
 {: #recieve-hardware}
 {: step}
 
 {{site.data.keyword.IBM_notm}} service support representatives (SSRs) take care of infrastructure setup and configuration.
 
 - Registering the pod with {{site.data.keyword.Bluemix_notm}}
--  Connecting to the client's {{site.data.keyword.satelliteshort}} location
+- Connecting to your {{site.data.keyword.satelliteshort}} location
 - Enabling the pod for usage
 
 The commitment term begins and you can start viewing billing information on {{site.data.keyword.Bluemix_notm}}. The pod is ready for workload deployments.
 
-## Creating an {{site.data.keyword.bplong}} workspace for on-premisis workloads
-{: #schematics}
-{: step}
+## Next steps
+{: #next-step-prep}
 
-Create a {{site.data.keyword.bpshort}} workspace in the location associated with the pod that is installed at your site by using the {{site.data.keyword.powerSys_notm}} dashboard. 
-
-1. Go to **Menu > Power Virtual Server > Workspaces** and click **Create a workspace**.
-1. Select On-premises and choose the {{site.data.keyword.satelliteshort}} location associated with the pod. Click **Continue**.
-1. Enter the workspace name and select a resource group.
-1. Click **Create**.
-
-## Creating a virtual server instance
-{: #create-instance}
-{: step}
-
-Quickly deploy SAP, Redhat Openshift and other supported workloads. Detailed views of storage pool and host level.
-
-1. Click the **Action icon > View virtual servers** on the workspace that you created.
-1. Click **Create instance**.
-
-
-
-## Integrating with {{site.data.keyword.Bluemix_notm}} services
-{: #integrate-cloud}
-{: step}
-
-Grant PowerVS access to other {{site.data.keyword.Bluemix_notm}} services like {{site.data.keyword.cos_short}}, {{site.data.keyword.Bluemix_notm}} Pak solutions, and key management services, such as {{site.data.keyword.keymanagementservicefull}} or {{site.data.keyword.hscrypto}}. This way, your on-premises workloads can benefit from cloud native services like backup, data management, and security.
+Next, [Prepare your on-premises environment for deployments]().

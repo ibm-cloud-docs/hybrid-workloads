@@ -13,12 +13,12 @@ completion-time: 60m
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Setting up an account for hybrid workloads
+# Setting up catalogs and locations for hybrid workloads
 {: #tutorial-hybrid}
 {: toc-content-type="tutorial"}
 {: toc-completion-time="60m"}
 
-In this tutorial, you learn how to set up an account for managing hybrid workloads in {{site.data.keyword.Bluemix_notm}}. You set up a private catalog that includes only the services that account users and applications need and define the locations that users can deploy workloads. Then, you set up access profiles for developers and IT infrastructure engineers in your organization.
+In this tutorial, you learn how to set up an account for managing hybrid workloads in {{site.data.keyword.Bluemix_notm}}. You set up a private catalog that includes only the services that account users and applications need and define the locations that users can deploy workloads.
 {: shortdesc}
 
 Let's say that you are a retail company that wants to deploy a hybrid cloud application where the core business logic runs on {{site.data.keyword.IBM_notm}} {{site.data.keyword.powerSys_notm}} Private Cloud, while front-end services and databases run on {{site.data.keyword.Bluemix_notm}}.
@@ -66,6 +66,6 @@ Enforce deployment location restrictions and help ensure that all deployments co
 
 
 ## Next steps
-{: #next-steps-hybrid}
+{: #next-step-access}
 
-Prepare your data center and order {{site.data.keyword.IBM_notm}} {{site.data.keyword.powerSys_notm}} Private Cloud. For more information, see [Setting up your on-premises private cloud]()
+Next, set up access profiles for developers and IT infrastructure engineers in your organization. For more information, see [Customizing access for hybrid workloads]().
