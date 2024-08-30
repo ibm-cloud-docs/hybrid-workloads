@@ -34,6 +34,8 @@ Prioritize an infrastructure that supports integration with multiple cloud provi
 
 Ensure that security policies are consistent across all environments by using IAM solutions that span on-premises and cloud resources.
 
+
+
 ## Unifying monitoring and management
 {: #unify-hybrid}
 

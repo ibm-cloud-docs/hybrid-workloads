@@ -21,7 +21,9 @@ toc:
       id: tutorial
       topics:
       - hybrid-account-tutorial.md
-      - hybrid-services-tutorial.md
+      - hybrid-access-tutorial.md
+      - hybrid-order-tutorial.md
+      - hybrid-prep-deployment-tutorial.md
   - navgroup:
       id: plan
       topics:
