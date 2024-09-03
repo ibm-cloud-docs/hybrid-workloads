@@ -20,10 +20,16 @@ toc:
   - navgroup:
       id: tutorial
       topics:
-      - hybrid-account-tutorial.md
-      - hybrid-access-tutorial.md
-      - hybrid-order-tutorial.md
-      - hybrid-prep-deployment-tutorial.md
+      - topicgroup:
+          label: Setting up an account for hybrid workloads
+          topics:
+          - hybrid-account-tutorial.md
+          - hybrid-access-tutorial.md
+      - topicgroup:
+          label: Setting up infrastructure for on-premises workloads
+          topics:
+          - hybrid-order-tutorial.md
+          - hybrid-prep-deployment-tutorial.md
   - navgroup:
       id: plan
       topics:

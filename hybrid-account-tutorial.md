@@ -18,10 +18,10 @@ completion-time: 60m
 {: toc-content-type="tutorial"}
 {: toc-completion-time="60m"}
 
-In this tutorial, you learn how to set up an account for managing hybrid workloads in {{site.data.keyword.Bluemix_notm}}. You set up a private catalog that includes only the services that account users and applications need and define the locations that users can deploy workloads.
+In this tutorial, you learn how to set up an account for managing hybrid workloads in {{site.data.keyword.Bluemix_notm}}. You set up a private catalog that includes only the services that users and applications need and define the locations that users can deploy workloads.
 {: shortdesc}
 
-Let's say that you are a retail company that wants to deploy a hybrid cloud application where the core business logic runs on {{site.data.keyword.IBM_notm}} {{site.data.keyword.powerSys_notm}} Private Cloud, while front-end services and databases run on {{site.data.keyword.Bluemix_notm}}.
+Let's say that you are a retail company that wants your core business logic to run on {{site.data.keyword.IBM_notm}} {{site.data.keyword.powerSys_notm}} Private Cloud, while front-end services and databases run on {{site.data.keyword.Bluemix_notm}}.
 
 {{site.data.keyword.IBM_notm}} {{site.data.keyword.powerSys_notm}} Private Cloud is a located on your premises, which is more secure. Running core business logic here uses the performance, security, and reliability of {{site.data.keyword.IBM}} Power Systems.
 
