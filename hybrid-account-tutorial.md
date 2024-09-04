@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2024
-lastupdated: "2024-08-30"
+lastupdated: "2024-09-03"
 
 keywords: location management, locations, region
 
@@ -32,11 +32,11 @@ Let's say that you are a retail company that wants your core business logic to r
 
 Make sure that you are logged in as the account owner or a user with the Administrator role on all account management services or Administrator role on the IAM Identity Service. For more information, see [IAM Identity service](/docs/account?topic=account-account-services#identity-service-account-management).
 
-## Setting the catalog visibility
+## Setting the visibility of the {{site.data.keyword.Bluemix_notm}} catalog
 {: #visibility-catalog-hybrid}
 {: step}
 
-Turn off users visibility of the {{site.data.keyword.Bluemix_notm}} catalog. Users in your account can use the console to create only instances of products that you give them access to in a private catalog.
+To restrict user visibility to just products in a private catalog, turn off the {{site.data.keyword.Bluemix_notm}} catalog in the account. This way, users in your account can use the console to create only instances of products that you give them access to in a private catalog.
 
 1. In the {{site.data.keyword.Bluemix_notm}}, go to **Manage > Catalogs > Settings**.
 1. Set the **{{site.data.keyword.Bluemix_notm}} catalog** toggle to **Off**.
