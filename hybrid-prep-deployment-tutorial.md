@@ -41,6 +41,8 @@ Quickly deploy SAP, Red Hat OpenShift and other supported workloads. Detailed vi
 1. Click the **Action icon > View virtual servers** on the workspace that you created.
 1. Click **Create instance**.
 
+For more information, see [Configuring a Power Virtual Server instance](/docs/power-iaas?topic=power-iaas-creating-power-virtual-server#configuring-instance).
+
 
 
 ## Integrating with {{site.data.keyword.Bluemix_notm}} services
