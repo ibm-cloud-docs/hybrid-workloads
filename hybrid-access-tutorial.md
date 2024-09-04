@@ -29,7 +29,7 @@ The roles of an IT infrastructure engineer and a developer are distinct. They mi
 
 Make sure that you are logged in as the account owner or a user with the Administrator role on all account management services or Administrator role on the IAM Identity Service. For more information, see [IAM Identity service](/docs/account?topic=account-account-services#identity-service-account-management).
 
-## Create a trusted prolfile: IT infrastructure engineer
+## Create a trusted profile: IT infrastructure engineer
 {: #it-tp}
 {: step}
 
@@ -41,7 +41,7 @@ To set up {{site.data.keyword.IBM_notm}} {{site.data.keyword.powerSys_notm}} Pri
 - Administrator on {{site.data.keyword.dl_full_notm}}
 
 To optimize and monitor resources once the infrastructure is in place, the IT infrastructure engineer needs the following roles and services:
-- Administrator on monitoring tools and logs (Administator on X service)
+- Administrator on monitoring tools and logs (Administrator on X service)
 - Administrator on compute resources
 
 Complete the following steps:
@@ -53,28 +53,28 @@ Complete the following steps:
 1. Click **Continue** and select **Access policy**.
 
 
-## Create a trusted prolfile: Develpoer
+## Create a trusted profile: Developer
 {: #dev-tp}
 {: step}
 
 The primary focus of the developer is building, testing, and deploying the retail applications that run on the infrastructure set up by the IT infrastructure engineer.
 
-To containerize, deploy, and scale applications on Kubernetes clusted running on {{site.data.keyword.IBM_notm}} {{site.data.keyword.powerSys_notm}}, the developers need the following rolse and service:
+To containerize, deploy, and scale applications on Kubernetes cluster running on {{site.data.keyword.IBM_notm}} {{site.data.keyword.powerSys_notm}}, the developers need the following roles and service:
 - Writer on {{site.data.keyword.powerSys_notm}}
 - Writer on Kubernetes
 - Writer on CI/CD pipelines
 
 Complete the following steps:
 1. In the {{site.data.keyword.cloud_notm}} console, click **Manage** > **Access (IAM) > Trusted profiles** and click **Create**.
-1. Enter the profile name `IT infrastructure` and the initials `IT`.
+1. Enter the profile name `Developer` and the initials `DEV`.
 1. Enter a description for the profile, like ""
 1. Select a color to represent this trusted profile and click **Continue**. Your users might have access to multiple trusted profiles in multiple accounts.
-1. Select **Individual users** and the IT infrastructure engineers that need access. Then, click **Add to profile**.
+1. Select **Individual users** and the developers that need access. Then, click **Add to profile**.
 1. Click **Continue** and select **Access policy**.
 
 
 
-## Create a trusted prolfile: Automation service
+## Create a trusted profile: Automation service
 {: #service-tp}
 {: step}
 
