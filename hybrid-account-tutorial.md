@@ -68,4 +68,4 @@ Enforce deployment location restrictions and help ensure that all deployments co
 ## Next steps
 {: #next-step-access}
 
-Next, set up access profiles for developers and IT infrastructure engineers in your organization. For more information, see [Customizing access for hybrid workloads]().
+Next, set up access profiles for developers and IT infrastructure engineers in your organization. For more information, see [Customizing access for hybrid workloads](/docs-draft/hybrid-workloads?topic=hybrid-workloads-access-tutorial-hybrid).

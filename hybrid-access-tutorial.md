@@ -19,6 +19,7 @@ completion-time: 60m
 {: toc-completion-time="60m"}
 
 In this tutorial, you customize how users that manage workloads in a hybrid environment can view and access an account. In this scenario, a retail company wants to run their core business logic on {{site.data.keyword.IBM_notm}} {{site.data.keyword.powerSys_notm}} on-premises and run front-end services on {{site.data.keyword.Bluemix_notm}}.
+{: shortdesc}
 
 Create a trusted profile for the IT infrastructure engineer to grant them consistent access across on-premises and cloud envoronments and tailor their platform experience to their job role.
 
@@ -89,4 +90,4 @@ After you click create, you can customize the console experience for the trusted
 ## Next steps
 {: #next-step-order}
 
-Now that access is set up for the IT infrastructure engineer, prepare your data center and order {{site.data.keyword.IBM_notm}} {{site.data.keyword.powerSys_notm}} Private Cloud. For more information, see [Ordering on-premises infrastructure for your hybrid cloud]().
+Now that access is set up for the IT infrastructure engineer, prepare your data center and order {{site.data.keyword.IBM_notm}} {{site.data.keyword.powerSys_notm}} Private Cloud. For more information, see [Ordering on-premises infrastructure for your hybrid cloud](/docs-draft/hybrid-workloads?topic=hybrid-workloads-tutorial-services-hybrid).
