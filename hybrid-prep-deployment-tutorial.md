@@ -18,9 +18,9 @@ completion-time: 60m
 {: toc-content-type="tutorial"}
 {: toc-completion-time="60m"}
 
-In this tutorial, you set up a workspace. Then, you grant PowerVS access to other {{site.data.keyword.Bluemix}} services.
+In this tutorial, you set up a workspace and virtual server instance. Then, you grant PowerVS access to other {{site.data.keyword.Bluemix}} services.
 
-## Creating an {{site.data.keyword.bplong}} workspace for on-premises workloads
+## Create an {{site.data.keyword.bplong}} workspace
 {: #schematics}
 {: step}
 
@@ -32,7 +32,7 @@ Create a {{site.data.keyword.bpshort}} workspace in the location associated with
 1. Enter the workspace name and select a resource group.
 1. Click **Create**.
 
-## Creating a virtual server instance
+## Create a virtual server instance
 {: #create-instance}
 {: step}
 
@@ -45,8 +45,16 @@ For more information, see [Configuring a Power Virtual Server instance](/docs/po
 
 
 
-## Integrating with {{site.data.keyword.Bluemix_notm}} services
+## Integrate with {{site.data.keyword.Bluemix_notm}} services
 {: #integrate-cloud}
 {: step}
 
 Grant PowerVS access to other {{site.data.keyword.Bluemix_notm}} services like {{site.data.keyword.cos_short}}, {{site.data.keyword.Bluemix_notm}} Pak solutions, and key management services, such as {{site.data.keyword.keymanagementservicefull}} or {{site.data.keyword.hscrypto}}. This way, your on-premises workloads can benefit from cloud native services like backup, data management, and security.
+
+Grant your PowerVS instance permission to read from and write to {{site.data.keyword.cos_short}} so that it can automatically backup ERP data.
+
+## Monitor performance
+{: #monitor-hybrid}
+{: step}
+
+Use monitoring tools to oversee the health, performance, and security of your workloads running on PowerVS.
