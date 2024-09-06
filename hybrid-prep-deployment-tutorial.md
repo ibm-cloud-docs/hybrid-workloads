@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2024
-lastupdated: "2024-08-30"
+lastupdated: "2024-09-06"
 
 keywords: location management, locations, region
 
@@ -43,18 +43,16 @@ Quickly deploy SAP, Red Hat OpenShift and other supported workloads. Detailed vi
 
 For more information, see [Configuring a Power Virtual Server instance](/docs/power-iaas?topic=power-iaas-creating-power-virtual-server#configuring-instance).
 
-
-
 ## Integrate with {{site.data.keyword.Bluemix_notm}} services
 {: #integrate-cloud}
 {: step}
 
 Grant PowerVS access to other {{site.data.keyword.Bluemix_notm}} services like {{site.data.keyword.cos_short}}, {{site.data.keyword.Bluemix_notm}} Pak solutions, and key management services, such as {{site.data.keyword.keymanagementservicefull}} or {{site.data.keyword.hscrypto}}. This way, your on-premises workloads can benefit from cloud native services like backup, data management, and security.
 
-Grant your PowerVS instance permission to read from and write to {{site.data.keyword.cos_short}} so that it can automatically backup ERP data.
+Grant your {{site.data.keyword.powerSys_notm}} instance permission to read from and write to {{site.data.keyword.cos_short}} so that it can automatically backup ERP data.
 
 ## Monitor performance
 {: #monitor-hybrid}
 {: step}
 
-Use monitoring tools to oversee the health, performance, and security of your workloads running on PowerVS.
+Use monitoring tools to oversee performance and how much capacity is allocated and available across all of your pods running on {{site.data.keyword.powerSys_notm}}.
