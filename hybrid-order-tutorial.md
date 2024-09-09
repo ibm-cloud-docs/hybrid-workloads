@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2024
-lastupdated: "2024-08-30"
+lastupdated: "2024-09-09"
 
 keywords: location management, locations, region
 
@@ -18,7 +18,7 @@ completion-time: 60m
 {: toc-content-type="tutorial"}
 {: toc-completion-time="60m"}
 
-In this tutorial, you learn how to estimate pricing, order and prepare for installing IBM {{site.data.keyword.powerSys_notm}} Private Cloud by using the {{site.data.keyword.Bluemix_notm}} console. You set up an {{site.data.keyword.satellitelong}} location that manages your PowerVS environment. Then, you grant PowerVS access to other {{site.data.keyword.Bluemix_notm}} services for an integrated hybrid cloud environment.
+In this tutorial, you learn how to estimate pricing, order and prepare for installing {{site.data.keyword.IBM}} {{site.data.keyword.powerSys_notm}} Private Cloud by using the {{site.data.keyword.Bluemix_notm}} console. You set up an {{site.data.keyword.satellitelong}} location that manages your {{site.data.keyword.powerSys_notm}} environment while you wait for your hardware delivery.
 {: shortdesc}
 
 ## Before you begin
@@ -53,7 +53,7 @@ Use IBM professional services to accelerate project delivery.
 {: #ordering}
 {: step}
 
-See [Purchasing services deployed on-premises](/docs/billing-usage?topic=billing-usage-service-comit).
+For more information, see [Purchasing services deployed on-premises](/docs/billing-usage?topic=billing-usage-service-comit).
 
 After your order is placed, {{site.data.keyword.IBM_notm}} teams reach out to coordinate floor space planning, networking planning, and other items in preparation for the delivery and setup.
 
@@ -64,6 +64,8 @@ After your order is placed, {{site.data.keyword.IBM_notm}} teams reach out to co
 Create a {{site.data.keyword.satelliteshort}} location within your {{site.data.keyword.Bluemix_notm}} account to manage the lifecycle of your {{site.data.keyword.powerSys_notm}} Private Cloud pod. {{site.data.keyword.satelliteshort}} acts as a management layer that provides a single pane of glass for deploying and managing workloads across your on-premises and cloud environments.
 
 For more information, see [Manually creating {{site.data.keyword.satelliteshort}} locations](/docs/satellite?topic=satellite-loc-manual-create).
+
+After you create this {{site.data.keyword.satelliteshort}} location, {{site.data.keyword.IBM}} manages the lifecycle of the {{site.data.keyword.satelliteshort}} location. The {{site.data.keyword.satelliteshort}} location that you create to connect to {{site.data.keyword.powerSys_notm}} Private Cloud is at no-cost.
 
 
 
@@ -77,7 +79,7 @@ For more information, see [Manually creating {{site.data.keyword.satelliteshort}
 - Connecting to your {{site.data.keyword.satelliteshort}} location
 - Enabling the pod for usage
 
-The commitment term begins and you can start viewing billing information on {{site.data.keyword.Bluemix_notm}}. The pod is ready for workload deployments.
+The commitment term begins and you can start viewing billing information on {{site.data.keyword.Bluemix_notm}}. The pod is almost ready for workload deployments.
 
 ## Next steps
 {: #next-step-prep}

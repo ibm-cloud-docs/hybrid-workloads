@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2024
-lastupdated: "2024-09-04"
+lastupdated: "2024-09-09"
 
 keywords: location management, locations, region
 
@@ -61,11 +61,11 @@ In this scenario, ABC services are needed for managing the infrastructure, and X
 Enforce deployment location restrictions and help ensure that all deployments comply with regulatory and business requirements. This is important in hybrid cloud setups where teams are managing both on-premises and cloud-based workloads.
 
 1. Go to **Manage** > **Catalogs** in the {{site.data.keyword.cloud}} console, and click **Locations**.
-1. To allow deployment only to **On-premises**, **Power**, and **Satellite**, and Dallas use the following: `kind:location | cap:power | cap:on-prem | metro_id:dal`
+1. Allow deployments to **Satellite** locations or public locations in the United States. Use the following syntax: `kind:location | (country:us ^ public:true)`.
 
-
+Allowing deployments to Satellite locations is necessary to deploy workloads on {{site.data.keyword.powerSys_notm}} on-premises.Restricting deployments to public locations in the United States helps ensure data residency requirements.
 
 ## Next steps
 {: #next-step-access}
 
-Next, set up access profiles for developers and IT infrastructure engineers in your organization. For more information, see [Customizing access for hybrid workloads](/docs-draft/hybrid-workloads?topic=hybrid-workloads-access-tutorial-hybrid).
+Next, set up access profiles for {{site.data.keyword.powerSys_notm}} administrators in your organization. For more information, see [Customizing access for hybrid workloads](/docs-draft/hybrid-workloads?topic=hybrid-workloads-access-tutorial-hybrid).
