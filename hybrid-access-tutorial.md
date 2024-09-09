@@ -36,7 +36,7 @@ The primary focus of the {{site.data.keyword.powerSys_notm}} administrator is he
 
 Complete the following steps:
 1. In the {{site.data.keyword.cloud_notm}} console, click **Manage** > **Access (IAM) > Trusted profiles** and click **Create**.
-1. Enter the profile name `IT infrastructure` and the initials `IT`.
+1. Enter the profile name `PowerVS Admin` and the initials `PA`.
 1. Enter a description for the profile, like "Full access to deploy, configure, and manage virtual servers, storage, and networking components in both on-prem and cloud environments."
 1. Select a color to represent this trusted profile and click **Continue**. Your users might have access to multiple trusted profiles in multiple accounts.
 1. Select **Individual users** and select the {{site.data.keyword.powerSys_notm}} administrators that need access. Then, click **Add to profile**.

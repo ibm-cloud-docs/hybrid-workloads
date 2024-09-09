@@ -18,7 +18,7 @@ completion-time: 60m
 {: toc-content-type="tutorial"}
 {: toc-completion-time="60m"}
 
-In this tutorial, you set up a workspace and virtual server instance to run your company's enterprise resource planning (ERP) workloads.
+In this tutorial, you set up a workspace and virtual server instance to run your company's enterprise resource planning (ERP) workloads on-premises and other workloads on {{site.data.keyword.Bluemix_notm}} .
 
 ## Create an {{site.data.keyword.bplong}} workspace
 {: #schematics}
@@ -47,12 +47,11 @@ Create a virtual server instance that runs on your {{site.data.keyword.IBM}} Pow
 
 For more information, see [Configuring a {{site.data.keyword.powerSys_notm}} instance](/docs/power-iaas?topic=power-iaas-creating-power-virtual-server#configuring-instance).
 
-## Deploying workloads on
+## Deploying workloads on {{site.data.keyword.powerSys_notm}}
 {: #integrate-cloud}
 {: step}
 
-After the PowerVS instance is up and running, you can deploy your workloads, such as applications or databases, onto the instance. This might involve installing software, migrating data, or setting up containerized applications.
-You manage the PowerVS instance and the workloads running on it through the {{site.data.keyword.Bluemix_notm}} console or using the [Power Cloud API](/apidocs/power-cloud).
+After the {{site.data.keyword.powerSys_notm}} instance is up and running, you can deploy your workloads, such as applications or databases, onto the instance. This might involve installing software, migrating data, or setting up containerized applications. You manage the {{site.data.keyword.powerSys_notm}} instance and the workloads running on it through the {{site.data.keyword.Bluemix_notm}} console or using the [Power Cloud API](/apidocs/power-cloud).
 
 
 
