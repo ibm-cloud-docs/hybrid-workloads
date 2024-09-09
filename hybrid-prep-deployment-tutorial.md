@@ -18,7 +18,8 @@ completion-time: 60m
 {: toc-content-type="tutorial"}
 {: toc-completion-time="60m"}
 
-In this tutorial, you set up a workspace and virtual server instance to run your company's enterprise resource planning (ERP) workloads on-premises and other workloads on {{site.data.keyword.Bluemix_notm}} .
+In this tutorial, you set up a workspace and virtual server instance to run your company's enterprise resource planning (ERP) workloads on-premises and other workloads on {{site.data.keyword.Bluemix_notm}}. These are the same steps that you would use to set up {{site.data.keyword.powerSys_notm}} in the cloud.
+{: shortdesc}
 
 ## Create an {{site.data.keyword.bplong}} workspace
 {: #schematics}
@@ -51,7 +52,7 @@ For more information, see [Configuring a {{site.data.keyword.powerSys_notm}} ins
 {: #integrate-cloud}
 {: step}
 
-After the {{site.data.keyword.powerSys_notm}} instance is up and running, you can deploy your workloads, such as applications or databases, onto the instance. This might involve installing software, migrating data, or setting up containerized applications. You manage the {{site.data.keyword.powerSys_notm}} instance and the workloads running on it through the {{site.data.keyword.Bluemix_notm}} console or using the [Power Cloud API](/apidocs/power-cloud).
+After the {{site.data.keyword.powerSys_notm}} instance is up and running, you can deploy your workloads, such as applications or databases, onto the instance. You manage the {{site.data.keyword.powerSys_notm}} instance and the workloads running on it through the {{site.data.keyword.Bluemix_notm}} console or using the [Power Cloud API](/apidocs/power-cloud).
 
 
 
@@ -62,3 +63,8 @@ After the {{site.data.keyword.powerSys_notm}} instance is up and running, you ca
 Use monitoring tools to oversee performance and how much capacity is allocated and available across all of your pods running on {{site.data.keyword.powerSys_notm}}, whether they are on-premises or in the cloud.
 
 For more information, see [Monitoring metrics for IBM Power Virtual Server](/docs/power-iaas?topic=power-iaas-monitor-sysdig).
+
+
+
+## Next steps
+{: #next-steps-prep}
