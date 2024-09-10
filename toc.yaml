@@ -50,6 +50,7 @@ toc:
             - locations-management.md
         - include: ../power-iaas/viewing-pod-details.md
         - include: ../billing-usage/viewing_usage.md
+        - include: ../power-iaas/returning-pod.md
   - navgroup:
       id: help
       topics:

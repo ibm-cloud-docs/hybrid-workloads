@@ -18,7 +18,7 @@ completion-time: 60m
 {: toc-content-type="tutorial"}
 {: toc-completion-time="60m"}
 
-In this tutorial, you customize how users that manage workloads in a hybrid environment can view and access an account. In this scenario, a retail company wants to run their core business logic on {{site.data.keyword.IBM_notm}} {{site.data.keyword.powerSys_notm}} on-premises and run front-end services on {{site.data.keyword.Bluemix_notm}}.
+In this tutorial, you customize how a {{site.data.keyword.powerSys_notm}} administrator can view and access an account with on-premises and off-premises environments. In this scenario, a retail company wants to run their core business logic on {{site.data.keyword.IBM_notm}} {{site.data.keyword.powerSys_notm}} on-premises and run front-end services on {{site.data.keyword.Bluemix_notm}}.
 {: shortdesc}
 
 Create a trusted profile for the {{site.data.keyword.powerSys_notm}} administrator to grant them consistent access across on-premises and cloud envoronments and tailor their platform experience to their job role.

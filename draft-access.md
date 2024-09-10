@@ -13,80 +13,74 @@ completion-time: 60m
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Customizing access for managing hybrid workloads
+# Customizing access for accounts with hybrid workloads
 {: #access-tutorial-hybrid}
 {: toc-content-type="tutorial"}
 {: toc-completion-time="60m"}
 
-In this tutorial, you customize how users that manage workloads in a hybrid environment can view and access an account. In this scenario, a retail company wants to run their core business logic on {{site.data.keyword.IBM_notm}} {{site.data.keyword.powerSys_notm}} on-premises and run front-end services on {{site.data.keyword.Bluemix_notm}}.
+Customize how users with different job roles can view and access an account with hybrid workloads. In this scenario, a retail company wants to run their core business logic on {{site.data.keyword.IBM_notm}} {{site.data.keyword.powerSys_notm}} on-premises and run front-end services on {{site.data.keyword.Bluemix_notm}}. There are separate job roles for the team that manages the underlying infrastructure and the team that deploys applications to run on the infrastructure.
 
-Create a trusted profile for the IT infrastructure engineer to grant them consistent access across on-premises and cloud envoronments and tailor their platform experience to their job role.
+
+
+The roles of an IT infrastructure engineer and a developer are distinct. They might interact with the same resources for different purposes within the same account. However, a developer usually only interacts with the infrastructure through automation for testing their code. Create separate trusted profiles for the IT infrastructure engineer, the development team, and the automation service. Assign each profile the access that they need and customize their platform experience to do their job.
 
 ## Before you begin
 {: #before-hybrid}
 
 Make sure that you are logged in as the account owner or a user with the Administrator role on all account management services or Administrator role on the IAM Identity Service. For more information, see [IAM Identity service](/docs/account?topic=account-account-services#identity-service-account-management).
 
-## Create a trusted profile
+## Create a trusted profile: IT infrastructure engineer
 {: #it-tp}
 {: step}
 
-The primary focus of the IT infrastructure engineer is helping ensure that the underlying infrastructure, both cloud and on-premises, runs smoothly, is secure, scalable, and available for other teams.
+The primary focus of the IT infrastructure engineer is helping ensure that the underlying infrastructure, both cloud and on-premises, runs smoothly, is secure, scalable, and available for other teams, like development.
 
-Complete the following steps:
-1. In the {{site.data.keyword.cloud_notm}} console, click **Manage** > **Access (IAM) > Trusted profiles** and click **Create**.
-1. Enter the profile name `IT infrastructure` and the initials `IT`.
-1. Enter a description for the profile, like "Full access to deploy, configure, and manage virtual servers, storage, and networking components in both on-prem and cloud environments."
-1. Select a color to represent this trusted profile and click **Continue**. Your users might have access to multiple trusted profiles in multiple accounts.
-1. Select **Individual users** and select the IT infrastructure engineers that need access. Then, click **Add to profile**.
-
-## Assign access
-{: #it-access}
-{: step}
-
-To set up {{site.data.keyword.IBM_notm}} {{site.data.keyword.powerSys_notm}} Private Cloud and [manage {{site.data.keyword.powerSys_notm}} instances](/docs/power-iaas?topic=power-iaas-modifying-instance) across on-premises and cloud envoronments, the IT infrastructure engineer needs the following roles and services:
-
-1. Click **Continue** and select **Access policy**.
-1. For policy 1, select the following:
-   - Service: Workspace for {{site.data.keyword.powerSys_notm}}
-   - Resources: All resources
-   - Roles and actions: Manager and Administrator
-1. Click **Add**.
-1. For policy 2, select the following:
-   - Service: {{site.data.keyword.satellitelong_notm}}
-   - Resources: All resources
-   - Roles and actions: Manager and Administrator
-1. Click **Add**.
-1. For policy 2, select the following:
-   - Service: {{site.data.keyword.dl_full_notm}}
-   - Resources: All resources
-   - Roles and actions: Manager and Administrator
-1. Click **Add**.
+To set up {{site.data.keyword.IBM_notm}} {{site.data.keyword.powerSys_notm}} Private Cloud and [manage {{site.data.keyword.powerSys_notm}} instances](/docs/power-iaas?topic=power-iaas-modifying-instance), the IT infrastructure engineer needs the following roles and services:
+- Administrator and Manager on {{site.data.keyword.IBM_notm}} {{site.data.keyword.powerSys_notm}}
+- Administrator on {{site.data.keyword.satellitelong_notm}}
+- Administrator on {{site.data.keyword.dl_full_notm}}
 
 To optimize and monitor resources once the infrastructure is in place, the IT infrastructure engineer needs the following roles and services:
 - Administrator on monitoring tools and logs (Administrator on X service)
 - Administrator on compute resources
 
-1. For policy 2, select the following:
-   - Service: {{site.data.keyword.dl_full_notm}}
-   - Resources: All resources
-   - Roles and actions: Manager and Administrator
-1. Click **Add**.
-1. Click **Create**.
+Complete the following steps:
+1. In the {{site.data.keyword.cloud_notm}} console, click **Manage** > **Access (IAM) > Trusted profiles** and click **Create**.
+1. Enter the profile name `IT infrastructure` and the initials `IT`.
+1. Enter a description for the profile, like ""
+1. Select a color to represent this trusted profile and click **Continue**. Your users might have access to multiple trusted profiles in multiple accounts.
+1. Select **Individual users** and the IT infrastructure engineers that need access. Then, click **Add to profile**.
+1. Click **Continue** and select **Access policy**.
 
-## Customize the console
-{: #it-experience}
+
+## Create a trusted profile: Developer
+{: #dev-tp}
 {: step}
 
-After you click create, you can customize the console experience for the trusted profile.
+The primary focus of the developer is building, testing, and deploying the retail applications that run on the infrastructure set up by the IT infrastructure engineer.
 
-1. Click **Console experience**.
-1. Select URL for the landing page and input the {{site.data.keyword.powerSys_notm}} dashboard URL: https://cloud.ibm.com/power/overview.
-1. Deselect the Manage navigation items. The IT infrastructure engineer doesn't need to manage account settings, access, or billing. Removing these menu items helps users complete tasks specific to their job role.
-1. Select the private catalog that you created in [Setting up catalogs and locations for hybrid workloads](). This way, the IT infrastructure engineer can provision resources from the curated list of services that you created.
-1. Click **Save**.
+To containerize, deploy, and scale applications on Kubernetes cluster running on {{site.data.keyword.IBM_notm}} {{site.data.keyword.powerSys_notm}}, the developers need the following roles and service:
+- Writer on {{site.data.keyword.powerSys_notm}}
+- Writer on Kubernetes
+- Writer on CI/CD pipelines
+
+Complete the following steps:
+1. In the {{site.data.keyword.cloud_notm}} console, click **Manage** > **Access (IAM) > Trusted profiles** and click **Create**.
+1. Enter the profile name `Developer` and the initials `DEV`.
+1. Enter a description for the profile, like ""
+1. Select a color to represent this trusted profile and click **Continue**. Your users might have access to multiple trusted profiles in multiple accounts.
+1. Select **Individual users** and the developers that need access. Then, click **Add to profile**.
+1. Click **Continue** and select **Access policy**.
+
+
+
+## Create a trusted profile: Automation service
+{: #service-tp}
+{: step}
+
+
 
 ## Next steps
 {: #next-step-order}
 
-Now that access is set up for the IT infrastructure engineer, prepare your data center and order {{site.data.keyword.IBM_notm}} {{site.data.keyword.powerSys_notm}} Private Cloud. For more information, see [Ordering on-premises infrastructure for your hybrid cloud]().
+Prepare your data center and order {{site.data.keyword.IBM_notm}} {{site.data.keyword.powerSys_notm}} Private Cloud. For more information, see [Ordering on-premises infrastructure for your hybrid cloud]()
