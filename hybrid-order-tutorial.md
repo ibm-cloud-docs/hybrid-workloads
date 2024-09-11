@@ -61,7 +61,7 @@ After your order is placed, {{site.data.keyword.IBM_notm}} teams contact you to 
 {: #satellite}
 {: step}
 
-Create a {{site.data.keyword.satelliteshort}} location within your {{site.data.keyword.Bluemix_notm}} account to manage the lifecycle of your {{site.data.keyword.powerSys_notm}} Private Cloud pod. {{site.data.keyword.satelliteshort}} acts as a management layer that provides a single pane of glass for deploying and managing workloads across your on-premises and cloud environments.
+Create a {{site.data.keyword.satelliteshort}} location within your {{site.data.keyword.Bluemix_notm}} account to manage the lifecycle of your {{site.data.keyword.powerSys_notm}} Private Cloud pod. {{site.data.keyword.satelliteshort}} acts as a connection back to {{site.data.keyword.Bluemix_notm}} that provides a single interface for deploying and managing workloads across your on-premises and cloud environments.
 
 For more information, see [Manually creating {{site.data.keyword.satelliteshort}} locations](/docs/satellite?topic=satellite-loc-manual-create).
 
