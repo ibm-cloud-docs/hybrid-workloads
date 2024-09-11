@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2024
-lastupdated: "2024-09-09"
+lastupdated: "2024-09-11"
 
 keywords: location management, locations, region
 
@@ -21,9 +21,9 @@ completion-time: 60m
 In this tutorial, you learn how to set up an account for managing hybrid workloads in {{site.data.keyword.Bluemix_notm}}. You set up a private catalog that includes only the services that users and applications need and define the locations that users can deploy workloads.
 {: shortdesc}
 
-Let's say that you're the Chief Technology Officer (CTO) of a retail company. Your current provider is ending support for the power systems that you're currently using to run your Enterprise Resource Planning (ERP) workloads. You come to {{site.data.keyword.IBM_notm}} for a solution and discover that you can get {{site.data.keyword.IBM_notm}} Power Systems hardware installed in your data center that plugs in to {{site.data.keyword.Bluemix_notm}} for managing workload deployments, usage monitoring, and billing. You decide that you can run your core business logic on {{site.data.keyword.IBM_notm}} {{site.data.keyword.powerSys_notm}} Private Cloud while your front-end services and databases run on a virtual server on {{site.data.keyword.Bluemix_notm}}.
+Let's say that you're the Chief Technology Officer (CTO) of a retail company. Your current provider is ending support for the Power Systems that you're using to run your Enterprise Resource Planning (ERP) workloads. You come to {{site.data.keyword.IBM_notm}} for a solution and discover that you can get {{site.data.keyword.IBM_notm}} Power Systems Hardware installed in your data center that plugs in to {{site.data.keyword.Bluemix_notm}} for managing workload deployments, usage monitoring, and billing. You decide that you can run your core business logic on {{site.data.keyword.IBM_notm}} {{site.data.keyword.powerSys_notm}} Private Cloud while your front-end services and databases run on a virtual server on {{site.data.keyword.Bluemix_notm}}.
 
-{{site.data.keyword.IBM_notm}} {{site.data.keyword.powerSys_notm}} Private Cloud is a located on your premises, which is more secure. Running core business logic here uses the performance, security, and reliability of {{site.data.keyword.IBM}} Power Systems.
+{{site.data.keyword.IBM_notm}} {{site.data.keyword.powerSys_notm}} Private Cloud is on your premises, which is more secure. Running core business logic here uses the performance, security, and reliability of {{site.data.keyword.IBM}} Power Systems.
 
 {{site.data.keyword.IBM_notm}} is a public cloud environment where the front-end services and databases can be easily scaled and managed. Public clouds are designed to handle large-scale and dynamic workloads, making them ideal for services that face external users and might need to scale up or down quickly.
 
@@ -58,12 +58,12 @@ In this scenario, ABC services are needed for managing the infrastructure, and X
 {: #manage-location}
 {: step}
 
-Enforce deployment location restrictions and help ensure that all deployments comply with regulatory and business requirements. This is important in hybrid cloud setups where teams are managing both on-premises and cloud-based workloads.
+Enforce deployment location restrictions and help ensure that all deployments comply with regulatory and business requirements. This restriction is important in hybrid cloud setups where teams are managing both on-premises and cloud-based workloads.
 
 1. Go to **Manage** > **Catalogs** in the {{site.data.keyword.cloud}} console, and click **Locations**.
 1. Allow deployments to **Satellite** locations or public locations in the United States. Use the following syntax: `kind:location | (country:us ^ public:true)`.
 
-Allowing deployments to Satellite locations is necessary to deploy workloads on {{site.data.keyword.powerSys_notm}} on-premises.Restricting deployments to public locations in the United States helps ensure data residency requirements.
+Allowing deployments to Satellite locations is necessary to deploy workloads on {{site.data.keyword.powerSys_notm}} on-premises. Restricting deployments to public locations in the United States helps ensure data residency requirements.
 
 ## Next steps
 {: #next-step-access}

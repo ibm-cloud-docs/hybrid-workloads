@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2024
-lastupdated: "2024-09-09"
+lastupdated: "2024-09-11"
 
 keywords: location management, locations, region
 
@@ -18,7 +18,7 @@ completion-time: 60m
 {: toc-content-type="tutorial"}
 {: toc-completion-time="60m"}
 
-In this tutorial, you learn how to estimate pricing, order and prepare for installing {{site.data.keyword.IBM}} {{site.data.keyword.powerSys_notm}} Private Cloud by using the {{site.data.keyword.Bluemix_notm}} console. You set up an {{site.data.keyword.satellitelong}} location that manages your {{site.data.keyword.powerSys_notm}} environment while you wait for your hardware delivery.
+In this tutorial, you learn how to estimate pricing, order hardware, and prepare for installing {{site.data.keyword.IBM}} {{site.data.keyword.powerSys_notm}} Private Cloud. You set up an {{site.data.keyword.satellitelong}} location that manages your {{site.data.keyword.powerSys_notm}} environment while you wait for your hardware delivery.
 {: shortdesc}
 
 ## Before you begin
@@ -53,9 +53,9 @@ Use IBM professional services to accelerate project delivery.
 {: #ordering}
 {: step}
 
-For more information, see [Purchasing services deployed on-premises](/docs/billing-usage?topic=billing-usage-service-comit).
+For more information, see [Purchasing infrastructure services deployed on-premises](/docs/billing-usage?topic=billing-usage-service-comit).
 
-After your order is placed, {{site.data.keyword.IBM_notm}} teams reach out to coordinate floor space planning, networking planning, and other items in preparation for the delivery and setup.
+After your order is placed, {{site.data.keyword.IBM_notm}} teams contact you to coordinate floor space planning, networking planning, and other items in preparation for the delivery and setup.
 
 ## Creating a {{site.data.keyword.satelliteshort}} location
 {: #satellite}

@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2024
-lastupdated: "2024-09-09"
+lastupdated: "2024-09-11"
 
 keywords: location management, locations, region
 
@@ -21,7 +21,7 @@ completion-time: 60m
 In this tutorial, you customize how a {{site.data.keyword.powerSys_notm}} administrator can view and access an account with on-premises and off-premises environments. In this scenario, a retail company wants to run their core business logic on {{site.data.keyword.IBM_notm}} {{site.data.keyword.powerSys_notm}} on-premises and run front-end services on {{site.data.keyword.Bluemix_notm}}.
 {: shortdesc}
 
-Create a trusted profile for the {{site.data.keyword.powerSys_notm}} administrator to grant them consistent access across on-premises and cloud envoronments and tailor their platform experience to their job role.
+Create a trusted profile for the {{site.data.keyword.powerSys_notm}} administrator to grant them consistent access across on-premises and cloud environments and tailor their platform experience to their job role.
 
 ## Before you begin
 {: #before-hybrid}
@@ -37,7 +37,7 @@ The primary focus of the {{site.data.keyword.powerSys_notm}} administrator is he
 Complete the following steps:
 1. In the {{site.data.keyword.cloud_notm}} console, click **Manage** > **Access (IAM) > Trusted profiles** and click **Create**.
 1. Enter the profile name `PowerVS Admin` and the initials `PA`.
-1. Enter a description for the profile, like "Full access to deploy, configure, and manage virtual servers, storage, and networking components in both on-prem and cloud environments."
+1. Enter a description for the profile, like "Full access to deploy, configure, and manage virtual servers, storage, and networking components in both on-premises and cloud environments."
 1. Select a color to represent this trusted profile and click **Continue**. Your users might have access to multiple trusted profiles in multiple accounts.
 1. Select **Individual users** and select the {{site.data.keyword.powerSys_notm}} administrators that need access. Then, click **Add to profile**.
 
@@ -45,7 +45,7 @@ Complete the following steps:
 {: #it-access}
 {: step}
 
-To set up {{site.data.keyword.IBM_notm}} {{site.data.keyword.powerSys_notm}} Private Cloud and [manage {{site.data.keyword.powerSys_notm}} instances](/docs/power-iaas?topic=power-iaas-modifying-instance) across on-premises and cloud envoronments, the {{site.data.keyword.powerSys_notm}} administrator needs the following roles and services:
+To set up {{site.data.keyword.IBM_notm}} {{site.data.keyword.powerSys_notm}} Private Cloud and [manage {{site.data.keyword.powerSys_notm}} instances](/docs/power-iaas?topic=power-iaas-modifying-instance) across on-premises and cloud environments, the {{site.data.keyword.powerSys_notm}} administrator needs the following roles and services:
 
 1. Click **Continue** and select **Access policy**.
 1. Select the following role and service:
@@ -54,7 +54,7 @@ To set up {{site.data.keyword.IBM_notm}} {{site.data.keyword.powerSys_notm}} Pri
    - Roles and actions: Administrator
 1. Click **Add**.
 
-To optimize and monitor resources once the infrastructure is in place, the {{site.data.keyword.powerSys_notm}} administrator needs the following access:
+To optimize and monitor resources after the infrastructure is in place, the {{site.data.keyword.powerSys_notm}} administrator needs the following access:
 
 1. Select the following role and service:
    - Service: {{site.data.keyword.mon_full_notm}}
@@ -62,6 +62,9 @@ To optimize and monitor resources once the infrastructure is in place, the {{sit
    - Roles and actions: Editor
 1. Click **Add**.
 1. Click **Create**.
+
+You might also create a trusted profile for an AIX administrator. This job role needs to Viewer access to {{site.data.keyword.powerSys_notm}} to get SSH ports to connect to instances, see whether a resource is up, but doesn't need to create VSIs.
+{: tip}
 
 ## Customize the console
 {: #it-experience}
