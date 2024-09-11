@@ -63,7 +63,7 @@ Enforce deployment location restrictions and help ensure that all deployments co
 1. Go to **Manage** > **Catalogs** in the {{site.data.keyword.cloud}} console, and click **Locations**.
 1. Allow deployments to **Satellite** locations or public locations in the United States. Use the following syntax: `kind:location | (country:us ^ public:true)`.
 
-Allowing deployments to Satellite locations is necessary to deploy workloads on {{site.data.keyword.powerSys_notm}} on-premises. Restricting deployments to public locations in the United States helps ensure data residency requirements.
+Allowing deployments to Satellite locations is necessary to deploy workloads on {{site.data.keyword.powerSys_notm}} on-premises. Restricting deployments to public locations in the United States helps ensure data sovereignty.
 
 ## Next steps
 {: #next-step-access}
