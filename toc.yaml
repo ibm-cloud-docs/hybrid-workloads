@@ -49,7 +49,11 @@ toc:
             - include: ../satellite/location-create-manual.md
             - locations-management.md
         - include: ../power-iaas/viewing-pod-details.md
-        - include: ../billing-usage/viewing_usage.md
+        - topicgroup:
+            label: Managing billing and usage
+            topics:
+            - include: ../billing-usage/viewing_usage.md
+            - include: ../billing-usage/enterprise-usage.md
         - include: ../power-iaas/returning-pod.md
   - navgroup:
       id: help
