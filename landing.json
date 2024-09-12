@@ -3,7 +3,6 @@
     "title": "Managing workloads in hybrid environments",
     "introduction": "This is a description of what the user will be able to find in the content for your solution.",
     "product_page": "https://www.ibm.com/products/power-virtual-server",
-    "deployment_url": "https://cloud.ibm.com/catalog?search=power%20virtual%20server%20label%3Aservices#search_results",
     "section_topics": {
       "links": [
         {
@@ -33,7 +32,8 @@
         "title": "Maximize the value of hybrid cloud in the generative AI era",
         "description": "Learn how to empower your organization through a new type of innovation—hybrid cloud with generative AI.",
         "href": "https://www.ibm.com/account/reg/us-en/subscribe?formid=urx-52663",
-        "type": "white-paper"
+        "type": "white-paper",
+        "recommended": true
       },
       {
         "title": "Hybrid Cloud Administrator",
@@ -47,22 +47,22 @@
       {
         "title": "Retail and consumer packaged goods",
         "href": "/docs/industry-ref-arch?topic=industry-ref-arch-retail",
-        "deployable": true
+        "deployable": false
       },
       {
         "title": "High throughput edge connectivity architecture for Telcos",
         "href": "/docs/industry-ref-arch?topic=industry-ref-arch-telecommunications",
-        "deployable": true
+        "deployable": false
       },
       {
         "title": "Manufacturing digitization in hybrid cloud",
         "href": "/docs/industry-ref-arch?topic=industry-ref-arch-manufacturing",
-        "deployable": true
+        "deployable": false
       },
       {
         "title": "Deploying scalable vehicle apps to analyze insights from sensor data",
         "href": "/docs/industry-ref-arch?topic=industry-ref-arch-automotive",
-        "deployable": true
+        "deployable": false
       }
     ],
     "section_updates": {
@@ -70,7 +70,8 @@
       "tiles": [
         {
           "date": "28 June 2024",
-          "title": "Power Virtual Server Private Cloud, an on-premises infrastructure as a service (IaaS) offering, is now available."
+          "title": "Power Virtual Server Private Cloud",
+          "description": "Power Virtual Server Private Cloud, an on-premises infrastructure as a service (IaaS) offering, is now available."
         }
       ]
     }
