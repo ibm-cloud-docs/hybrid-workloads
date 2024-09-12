@@ -12,7 +12,7 @@ subcollection: hybrid-workloads
 {{site.data.keyword.attribute-definition-list}}
 
 # Why use hybrid cloud with {{site.data.keyword.IBM_notm}}?
-{: #hybrid}
+{: #about-hybrid}
 
 With {{site.data.keyword.IBM}}'s hybrid cloud computing solutions, deploy and manage your workloads across cloud and on-premises environments by using a single platform: {{site.data.keyword.Bluemix}}. The underlying infrastructure of hybrid cloud services, whether it's in the cloud or on-premises, remains consistent, which helps ensure that you can design, deploy, and manage workloads in the same way regardless of where they're deployed.
 {: shortdesc}
