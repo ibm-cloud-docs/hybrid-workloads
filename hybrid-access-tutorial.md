@@ -75,10 +75,10 @@ After you click create, you can customize the console experience for the trusted
 1. Click **Console experience**.
 1. Select URL for the landing page and input the {{site.data.keyword.powerSys_notm}} dashboard URL: https://cloud.ibm.com/power/overview.
 1. Deselect the Manage navigation items. The {{site.data.keyword.powerSys_notm}} administrator doesn't need to manage account settings, access, or billing. Removing these menu items helps users complete tasks specific to their job role.
-1. Select the private catalog that you created in [Setting up catalogs and locations for hybrid workloads](/docs-draft/hybrid-workloads?topic=hybrid-workloads-tutorial-hybrid). This way, the {{site.data.keyword.powerSys_notm}} administrator can provision only resources that they have access to from the curated list of services that you created.
+1. Select the private catalog that you created in [Setting up catalogs and locations for hybrid workloads](/docs/hybrid-workloads?topic=hybrid-workloads-tutorial-hybrid). This way, the {{site.data.keyword.powerSys_notm}} administrator can provision only resources that they have access to from the curated list of services that you created.
 1. Click **Save**.
 
 ## Next steps
 {: #next-step-order}
 
-Now that access is set up for the {{site.data.keyword.powerSys_notm}} administrator, prepare your data center and order {{site.data.keyword.IBM_notm}} {{site.data.keyword.powerSys_notm}} Private Cloud. For more information, see [Ordering on-premises infrastructure for your hybrid cloud](/docs-draft/hybrid-workloads?topic=hybrid-workloads-tutorial-services-hybrid).
+Now that access is set up for the {{site.data.keyword.powerSys_notm}} administrator, prepare your data center and order {{site.data.keyword.IBM_notm}} {{site.data.keyword.powerSys_notm}} Private Cloud. For more information, see [Ordering on-premises infrastructure for your hybrid cloud](/docs/hybrid-workloads?topic=hybrid-workloads-tutorial-services-hybrid).

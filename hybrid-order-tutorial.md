@@ -84,4 +84,4 @@ The commitment term begins and you can start viewing billing information on {{si
 ## Next steps
 {: #next-step-prep}
 
-Next, [Prepare your on-premises environment for deployments](/docs-draft/hybrid-workloads?topic=hybrid-workloads-tutorial-prep-hybrid).
+Next, [Prepare your on-premises environment for deployments](/docs/hybrid-workloads?topic=hybrid-workloads-tutorial-prep-hybrid).

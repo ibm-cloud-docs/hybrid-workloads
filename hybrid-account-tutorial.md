@@ -68,4 +68,4 @@ Allowing deployments to Satellite locations is necessary to deploy workloads on 
 ## Next steps
 {: #next-step-access}
 
-Next, set up access profiles for {{site.data.keyword.powerSys_notm}} administrators in your organization. For more information, see [Customizing access for hybrid workloads](/docs-draft/hybrid-workloads?topic=hybrid-workloads-access-tutorial-hybrid).
+Next, set up access profiles for {{site.data.keyword.powerSys_notm}} administrators in your organization. For more information, see [Customizing access for hybrid workloads](/docs/hybrid-workloads?topic=hybrid-workloads-access-tutorial-hybrid).

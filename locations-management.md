@@ -48,7 +48,7 @@ To set the location filters, complete the following steps:
    * Click **More filters** to refine your search to different location parameters, like geography or country.
    * Manually query the filter locations search bar and specify a combination of location parameters.
 
-   The toggles and filters are most effective for straightforward location combinations or for grasping the workings of the filtering syntax. You can see how the advanced syntax develops in the search bar as you adjust the toggles and filters. To create more complex combinations, see [Filtering syntax](/docs-draft/hybrid-workloads?topic=hybrid-workloads-managing_locations#filtering_syntax).
+   The toggles and filters are most effective for straightforward location combinations or for grasping the workings of the filtering syntax. You can see how the advanced syntax develops in the search bar as you adjust the toggles and filters. To create more complex combinations, see [Filtering syntax](/docs/hybrid-workloads?topic=hybrid-workloads-managing_locations#filtering_syntax).
    {: note}
 
 
@@ -94,5 +94,3 @@ If you have more complex and specific location requirements, you might need to u
 | `country:de,uk\|id:my-private-region`    | All regions in `de` or `uk` countries as well as (OR) region (id) `my-private-region`|
 | `geo_id:na^cap:name:power` | Any region in North America geography that has a (AND) power capability |
 {: caption="Table 2. Example syntax for specifying multiple location criteria." caption-side="top"}
-
-

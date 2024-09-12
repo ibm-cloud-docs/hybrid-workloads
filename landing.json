@@ -2,7 +2,7 @@
     "version": 2,
     "title": "Managing workloads in hybrid environments",
     "introduction": "This is a description of what the user will be able to find in the content for your solution.",
-    "product_page": "https://cloud.ibm.com/power/overview",
+    "product_page": "https://www.ibm.com/products/power-virtual-server",
     "deployment_url": "https://cloud.ibm.com/catalog?search=power%20virtual%20server%20label%3Aservices#search_results",
     "section_topics": {
       "links": [
@@ -24,7 +24,7 @@
         },
         {
           "title": "Managing workload deployment locations",
-          "href": "/docs/docs-draft/hybrid-workloads?topic=hybrid-workloads-managing_locations"
+          "href": "/docs/hybrid-workloads?topic=hybrid-workloads-managing_locations"
         }
       ]
     },
