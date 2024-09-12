@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2024
-lastupdated: "2024-08-29"
+lastupdated: "2024-09-12"
 
 keywords: location management, locations, region
 
@@ -21,15 +21,12 @@ Choose the location of your cloud resources that best meets your needs, like a p
 
 {{site.data.keyword.IBM_notm}} offers managed on-premises hardware solutions that fully integrate with the {{site.data.keyword.Bluemix_notm}} platform. Your organization can focus on your core business while {{site.data.keyword.IBM_notm}} takes care of hardware installation and management.
 
-
-
 ## What is hybrid cloud?
 {: #why-hybrid}
 
 Hybrid cloud is a model that combines the use of public cloud services and on-premises infrastructure. The public cloud is hosted off-premises in {{site.data.keyword.Bluemix_notm}} data center locations while on-premises infrastructure runs on site at your location.
 
 A hybrid strategy gives you the flexibility to run workloads in the appropriate environment based on cost, performance, and regulatory requirements. For example, you might use a public cloud for variable workloads that require rapid scaling and run predictable workloads on-premises.
-
 
 
 ### On-premises
@@ -46,9 +43,6 @@ Off-premises refers to computing resources that are hosted and managed outside o
 
 Off-premises solutions are commonly used for web applications, storage, disaster recovery, and workloads that require elasticity and scalability.
 
-
-
-
 ## Core {{site.data.keyword.Bluemix_notm}} services for hybrid environments
 {: #services-hybrid}
 
@@ -63,6 +57,4 @@ Off-premises solutions are commonly used for web applications, storage, disaster
 
 
 
-
-
-Your on-premises data center and {{site.data.keyword.Bluemix_notm}} connect through {{site.data.keyword.dl_full_notm}}, helping ensure secure and high-speed data transfer. {{site.data.keyword.satellitelong_notm}} provides a single management interface to oversee both on-premises and cloud resources, helping ensure unified operations. With {{site.data.keyword.powerSys_notm}} Private Cloud you have dedicated {{site.data.keyword.IBM}} Power Systems hardware in your data center that integrates with {{site.data.keyword.Bluemix_notm}} services.
+Your on-premises data center and {{site.data.keyword.Bluemix_notm}} connect through {{site.data.keyword.dl_full_notm}}, helping ensure secure and high-speed data transfer. {{site.data.keyword.satellitelong_notm}} provides a single management interface to oversee both on-premises and cloud resources, helping ensure unified operations. With {{site.data.keyword.powerSys_notm}} Private Cloud, you have dedicated {{site.data.keyword.IBM}} Power Systems Hardware in your data center that integrates with {{site.data.keyword.Bluemix_notm}} services.
