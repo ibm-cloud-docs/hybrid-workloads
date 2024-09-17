@@ -46,7 +46,7 @@ toc:
             - include: ../power-iaas/satellite-location-private.md
               navtitle: IBM Satellite locations for IBM Power Virtual Server (On-premises)
             - include: ../satellite/location-create-manual.md
-            - locations-management.md
+            - include: ../secure-enterprise/locations-management.md
         - include: ../power-iaas/viewing-pod-details.md
         - topicgroup:
             label: Managing billing and usage
