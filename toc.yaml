@@ -1,0 +1,67 @@
+toc:
+  properties:
+    subcollection: hybrid-workloads
+    category: solution_docs
+    content-type: solution
+    audience: solution
+    href: /docs/hybrid-workloads
+    path: hybrid-workloads
+    label: Managing workloads in hybrid environments
+  entries:
+  - navgroup:
+      id: overview
+      topics:
+      - about.md
+      - topicgroup:
+          label: Best practices
+          topics:
+          - bp-hybrid.md
+          - include: ../enterprise-account-architecture/finops.md
+  - navgroup:
+      id: tutorial
+      topics:
+      - topicgroup:
+          label: Setting up an account for hybrid workloads
+          topics:
+          - hybrid-account-tutorial.md
+      - topicgroup:
+          label: Setting up infrastructure for on-premises workloads
+          topics:
+          - hybrid-order-tutorial.md
+          - hybrid-prep-deployment-tutorial.md
+  - navgroup:
+      id: plan
+      topics:
+      - include: ../overview/shared-responsibility.md
+  - navgroup:
+      id: howto
+      topics:
+        - include: ../billing-usage/service-level-commit.md
+        - topicgroup:
+            label: Managing workload deployment locations
+            topics:
+            - include: ../overview/locations.md
+            - include: ../satellite/sat-regions.md
+              navtitle: Satellite regions
+            - include: ../power-iaas/satellite-location-private.md
+              navtitle: IBM Satellite locations for IBM Power Virtual Server (On-premises)
+            - include: ../satellite/location-create-manual.md
+            - include: ../secure-enterprise/locations-management.md
+        - include: ../power-iaas/viewing-pod-details.md
+        - topicgroup:
+            label: Managing billing and usage
+            topics:
+            - include: ../billing-usage/viewing_usage.md
+            - include: ../billing-usage/enterprise-usage.md
+        - include: ../power-iaas/returning-pod.md
+  - navgroup:
+      id: help
+      topics:
+      - get-help.md
+  - navgroup:
+      id: reference
+      topics:
+      - include: ../industry-ref-arch/industries/insurance-ra.md
+      - link:
+          label: Build a more intentional hybrid cloud - The key to continuous innovation
+          href: https://www.ibm.com/downloads/cas/g21pjbr3
