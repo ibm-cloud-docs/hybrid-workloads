@@ -67,8 +67,6 @@ For more information, see [Manually creating {{site.data.keyword.satelliteshort}
 
 After you create this {{site.data.keyword.satelliteshort}} location, {{site.data.keyword.IBM}} manages the lifecycle of the {{site.data.keyword.satelliteshort}} location. The {{site.data.keyword.satelliteshort}} location that you create to connect to {{site.data.keyword.powerSys_notm}} Private Cloud is at no-cost.
 
-
-
 ## Receiving the hardware delivery
 {: #recieve-hardware}
 {: step}

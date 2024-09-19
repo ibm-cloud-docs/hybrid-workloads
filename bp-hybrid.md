@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2024
-lastupdated: "2024-09-17"
+lastupdated: "2024-09-19"
 
 keywords: location management, locations, region
 

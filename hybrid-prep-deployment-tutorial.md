@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2024
-lastupdated: "2024-09-12"
+lastupdated: "2024-09-19"
 
 keywords: location management, locations, region
 
@@ -27,7 +27,6 @@ In this tutorial, you set up a workspace and virtual server instance to run your
 
 Create a {{site.data.keyword.bpshort}} workspace in the location associated with the pod that is installed at your site by using the {{site.data.keyword.powerSys_notm}} dashboard.
 
-
 1. Go to the **Navigation Menu icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > {{site.data.keyword.powerSys_notm}} > Workspaces** and click **Create a workspace**.
 1. Select On-premises and choose the {{site.data.keyword.satelliteshort}} location that is associated with the pod. Click **Continue**.
 1. Enter the workspace name and select a resource group.
@@ -40,8 +39,6 @@ For more information, see [Creating a {{site.data.keyword.powerSys_notm}} worksp
 {: step}
 
 Create a virtual server instance that runs on your {{site.data.keyword.IBM}} Power Systems Hardware on-premises, on which you plan to run your enterprise resource planning (ERP) workloads.
-
-
 
 1. Click the **Action icon > View virtual servers** on the workspace that you created.
 1. Click **Create instance**.
