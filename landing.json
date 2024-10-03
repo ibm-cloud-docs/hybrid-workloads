@@ -1,0 +1,78 @@
+{
+    "version": 2,
+    "title": "Managing workloads in hybrid environments",
+    "introduction": "Learn how to use IBM hardware at your premises with the power of IBM Cloud services for an optimized hybrid cloud strategy.",
+    "product_page": "https://www.ibm.com/products/power-virtual-server",
+    "section_topics": {
+      "links": [
+        {
+          "title": "Why use hybrid cloud with IBM?",
+          "href": "/docs/hybrid-workloads?topic=hybrid-workloads-hybrid"
+        },
+        {
+          "title": "Hybrid cloud management",
+          "href": "/docs/hybrid-workloads?topic=hybrid-workloads-bp-hybrid"
+        },
+        {
+          "title": "Shared responsibilities for using IBM Cloud products",
+          "href": "/docs/hybrid-workloads?topic=hybrid-workloads-shared-responsibilities#hybrid"
+        },
+        {
+          "title": "Purchasing infrastructure services deployed on-premises",
+          "href": "/docs/hybrid-workloads?topic=hybrid-workloads-service-comit"
+        },
+        {
+          "title": "Managing workload deployment locations",
+          "href": "/docs/hybrid-workloads?topic=hybrid-workloads-managing_locations"
+        }
+      ]
+    },
+    "section_highlights": [
+      {
+        "title": "Maximize the value of hybrid cloud in the generative AI era",
+        "description": "Learn how to empower your organization through a new type of innovation—hybrid cloud with generative AI.",
+        "href": "https://www.ibm.com/account/reg/us-en/subscribe?formid=urx-52663",
+        "type": "white-paper",
+        "recommended": true
+      },
+      {
+        "title": "Hybrid Cloud Administrator",
+        "description": "This learning path helps you design and manage cloud solutions on IBM Power.",
+        "href": "https://www.ibm.com/training/learning-path/hybrid-cloud-administrator-885",
+        "type": "training",
+        "recommended": true
+      }
+    ],
+    "section_architectures": [
+      {
+        "title": "Retail and consumer packaged goods",
+        "href": "/docs/industry-ref-arch?topic=industry-ref-arch-retail",
+        "deployable": false
+      },
+      {
+        "title": "High throughput edge connectivity architecture for Telcos",
+        "href": "/docs/industry-ref-arch?topic=industry-ref-arch-telecommunications",
+        "deployable": false
+      },
+      {
+        "title": "Manufacturing digitization in hybrid cloud",
+        "href": "/docs/industry-ref-arch?topic=industry-ref-arch-manufacturing",
+        "deployable": false
+      },
+      {
+        "title": "Deploying scalable vehicle apps to analyze insights from sensor data",
+        "href": "/docs/industry-ref-arch?topic=industry-ref-arch-automotive",
+        "deployable": false
+      }
+    ],
+    "section_updates": {
+      "view_more": "/docs/overview?topic=overview-whatsnew",
+      "tiles": [
+        {
+          "date": "28 June 2024",
+          "title": "Power Virtual Server Private Cloud",
+          "description": "Power Virtual Server Private Cloud, an on-premises infrastructure as a service (IaaS) offering, is now available."
+        }
+      ]
+    }
+  }
