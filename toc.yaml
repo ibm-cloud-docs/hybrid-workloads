@@ -36,7 +36,7 @@ toc:
   - navgroup:
       id: howto
       topics:
-        - include: ../billing-usage/service-level-commit.md
+        - service-commit-on-prem.md
         - topicgroup:
             label: Managing workload deployment locations
             topics:
@@ -51,8 +51,8 @@ toc:
         - topicgroup:
             label: Managing billing and usage
             topics:
-            - include: ../billing-usage/viewing_usage.md
-            - include: ../billing-usage/enterprise-usage.md
+            - include: ../account/viewing_usage.md
+            - include: ../enterprise-management/enterprise-usage.md
         - include: ../power-iaas/returning-pod.md
   - navgroup:
       id: help
