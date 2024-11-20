@@ -24,6 +24,7 @@ toc:
           label: Setting up an account for hybrid workloads
           topics:
           - hybrid-account-tutorial.md
+          - hybrid-access-tutorial.md
       - topicgroup:
           label: Setting up infrastructure for on-premises workloads
           topics:
@@ -36,7 +37,7 @@ toc:
   - navgroup:
       id: howto
       topics:
-        - include: ../billing-usage/service-level-commit.md
+        - service-commit-on-prem.md
         - topicgroup:
             label: Managing workload deployment locations
             topics:
@@ -51,8 +52,8 @@ toc:
         - topicgroup:
             label: Managing billing and usage
             topics:
-            - include: ../billing-usage/viewing_usage.md
-            - include: ../billing-usage/enterprise-usage.md
+            - include: ../enterprise-management/viewing_usage1.md
+            - include: ../enterprise-management/enterprise-usage.md
         - include: ../power-iaas/returning-pod.md
   - navgroup:
       id: help
