@@ -52,7 +52,7 @@ toc:
         - topicgroup:
             label: Managing billing and usage
             topics:
-            - include: ../enterprise-management/viewing_usage.md
+            - include: ../account/viewing_usage.md
             - include: ../enterprise-management/enterprise-usage.md
         - include: ../power-iaas/returning-pod.md
   - navgroup:
