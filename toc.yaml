@@ -49,7 +49,6 @@ toc:
             - include: ../satellite/location-create-manual.md
             - include: ../secure-enterprise/locations-management.md
         - include: ../power-iaas/viewing-pod-details.md
-          navtitle: Viewing IBM Power Virtual Server pod details
         - topicgroup:
             label: Managing billing and usage
             topics:
