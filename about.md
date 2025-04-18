@@ -56,5 +56,6 @@ Off-premises solutions are commonly used for web applications, storage, disaster
 :   A high-speed and secure connectivity between on-premises data centers and {{site.data.keyword.Bluemix_notm}}.
 
 
+![A diagram that shows the components of a basic hybrid infrastructure that uses {{site.data.keyword.powerSys_notm}} Private Cloud ina client location and {{site.data.keyword.powerSys_notm}} on {{site.data.keyword.cloud_notm}}.](images/test_hybrid_arch_drawing.svg){: caption="A diagram that shows the components of a basic hybrid infrastructure" caption-side="bottom"}
 
 Your on-premises data center and {{site.data.keyword.Bluemix_notm}} connect through {{site.data.keyword.dl_full_notm}}, helping ensure secure and high-speed data transfer. {{site.data.keyword.satellitelong_notm}} provides a single management interface to oversee both on-premises and cloud resources, helping ensure unified operations. With {{site.data.keyword.powerSys_notm}} Private Cloud, you have dedicated {{site.data.keyword.IBM}} Power Systems Hardware in your data center that integrates with {{site.data.keyword.Bluemix_notm}} services.
