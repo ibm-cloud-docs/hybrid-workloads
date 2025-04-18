@@ -47,11 +47,20 @@ To restrict user visibility to just products in a private catalog, turn off the 
 
 A curated private catalog makes it easier for teams to find and deploy the resources that they need and can help avoid unnecessary resource usage.
 
-In this scenario, ABC services are needed for managing the infrastructure, and XYZ services are needed for development team to build a retail application.
+In this scenario, infrastructure services such as {{site.data.keyword.powerSys_notm}} and Virtual Private Cloud (VPC) are needed for managing the infrastructure. Developer services such as Cloud Databases, Kubernetes Service, and DevOps toolchains are needed for the development team to build and deploy a retail application.
 
 1. Go to **Manage** > **Catalogs** in the {{site.data.keyword.cloud}} console, and click **Create a catalog**.
 1. Enter a name and description of your catalog.
-1. Select to exclude all products in the {{site.data.keyword.cloud_notm}} catalog in your private catalog. For more information about how this setting affects visibility in the catalog, see [Managing catalog settings](/docs/account?topic=account-filter-account&interface=ui).
+1. Select **No products**  in your private catalog. For more information about how this setting affects visibility in the catalog, see [Managing catalog settings](/docs/account?topic=account-filter-account&interface=ui).
+1. Go to **Available from IBM Cloud Catalog**.
+1. Select **Manage filters** to customize which products are available. In the case of our example, select the following filters:
+   1. **Category > Compute**
+   1. **Category > Containers**
+   1. **Category > Networking**
+   1. **Category > Databases**
+   1. **Category > Developer tools**
+   1. Click **Update**.
+   1. **Provider > IBM**
 1. Click **Create**.
 
 ## Set workload deployment locations
