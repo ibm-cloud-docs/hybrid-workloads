@@ -49,7 +49,7 @@ To generate an estimated price, use the [Power Virtual Server Estimate](/power/e
 
 Use {{site.data.keyword.IBM}} professional services to accelerate project delivery.
 
-## Ordering IBM {{site.data.keyword.powerSys_notm}} Private Cloud hardware
+## Ordering {{site.data.keyword.IBM_notm}} {{site.data.keyword.powerSys_notm}} Private Cloud hardware
 {: #ordering}
 {: step}
 
