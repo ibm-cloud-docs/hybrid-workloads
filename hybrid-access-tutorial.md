@@ -40,6 +40,7 @@ Complete the following steps:
 1. Enter a description for the profile, like "Full access to deploy, configure, and manage virtual servers, storage, and networking components in both on-premises and cloud environments."
 1. Select a color to represent this trusted profile and click **Continue**. Your users might have access to multiple trusted profiles in multiple accounts.
 1. Select **Individual users** and select the {{site.data.keyword.powerSys_notm}} administrators that need access. Then, click **Add to profile**.
+1. Click **Continue** and select **Access policy**.
 
 ## Assign access
 {: #it-access}
@@ -47,16 +48,12 @@ Complete the following steps:
 
 To set up {{site.data.keyword.IBM_notm}} {{site.data.keyword.powerSys_notm}} Private Cloud and [manage {{site.data.keyword.powerSys_notm}} instances](/docs/power-iaas?topic=power-iaas-modifying-instance) across on-premises and cloud environments, the {{site.data.keyword.powerSys_notm}} administrator needs the following roles and services:
 
-1. Click **Continue** and select **Access policy**.
 1. Select the following role and service:
    - Service: Workspace for {{site.data.keyword.powerSys_notm}}
    - Resources: All resources
    - Roles and actions: Administrator
 1. Click **Add**.
-
-To optimize and monitor resources after the infrastructure is in place, the {{site.data.keyword.powerSys_notm}} administrator needs the following access:
-
-1. Select the following role and service:
+1. To optimize and monitor resources after the infrastructure is in place, the {{site.data.keyword.powerSys_notm}} administrator needs the following access:
    - Service: {{site.data.keyword.mon_full_notm}}
    - Resources: All resources
    - Roles and actions: Editor

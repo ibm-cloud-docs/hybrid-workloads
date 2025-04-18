@@ -47,13 +47,13 @@ To generate an estimated price, use the [Power Virtual Server Estimate](/power/e
 1. Add the configuration to the estimator and export a PDF to view a total estimate.
 1. Share your exported estimate with IBM to get a more detailed quote and possible discounts.
 
-Use IBM professional services to accelerate project delivery.
+Use {{site.data.keyword.IBM}} professional services to accelerate project delivery.
 
 ## Ordering IBM {{site.data.keyword.powerSys_notm}} Private Cloud hardware
 {: #ordering}
 {: step}
 
-For more information, see [Purchasing infrastructure services deployed on-premises](/docs/billing-usage?topic=billing-usage-service-comit).
+For more information, see [Purchasing infrastructure services deployed on-premises](/docs/hybrid-workloads?topic=hybrid-workloads-service-comit).
 
 After your order is placed, {{site.data.keyword.IBM_notm}} teams contact you to coordinate floor space planning, networking planning, and other items in preparation for the delivery and setup.
 
